@@ -33,3 +33,9 @@
 	},
 	"packageManager": "pnpm@10.18.3"
 }
+
+{
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

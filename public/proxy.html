@@ -1,1 +1,42 @@
-<!doctypehtml><meta charset=utf-8><meta content="width=device-width,initial-scale=1,shrink-to-fit=no"name=viewport><title>Flux</title><link rel="shortcut icon"content=favicon.webp><script src=/scram/scramjet.all.js></script><script src=/baremux/index.js></script><link rel=stylesheet href=index.css><script src=register-sw.js defer></script><script src=search.js defer></script><script src=index.js defer></script><script src=https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js></script><style>#particles-js{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;background:#000}body{position:relative;z-index:1;background:0 0;margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}#sj-form,.desc,.logo-wrapper{position:relative;z-index:1}</style><div id=particles-js></div><div class="flex-center header-center logo-wrapper"title="Scramjet Logo"><img alt=flux class=logo src=logo.png></div><div class="flex-center desc left-margin"></div><form class=flex-center id=sj-form><input id=sj-search-engine type=hidden value="https://baresearch.org/search?q=%s"> <input id=sj-address placeholder="Search the web freely"></form><div class="desc left-margin"><p id=sj-error><pre id=sj-error-code></pre></div><script>particlesJS("particles-js",{particles:{number:{value:200,density:{enable:!0,value_area:800}},color:{value:"#ffffff"},shape:{type:"circle"},opacity:{value:.8,random:!0,anim:{enable:!0,speed:.6,opacity_min:.1,sync:!1}},size:{value:2,random:!0,anim:{enable:!1}},line_linked:{enable:!1},move:{enable:!0,speed:.04,direction:"none",random:!0,straight:!1,out_mode:"out",bounce:!1}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"bubble"},onclick:{enable:!1},resize:!0},modes:{bubble:{distance:30,size:3.5,duration:1.5,opacity:1,speed:3}}},retina_detect:!0})</script>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
+		<title>Flux</title>
+
+		<link rel="shortcut icon" content="favicon.webp" />
+	
+		<script src="/scram/scramjet.all.js"></script>
+		<script src="/baremux/index.js"></script>
+		
+		<link rel="stylesheet" href="index.css" />
+		<script src="register-sw.js" defer></script>
+		<script src="search.js" defer></script>
+		<script src="index.js" defer></script>
+	</head>
+
+	<body>
+		<div title="Scramjet Logo" class="flex-center logo-wrapper header-center">
+			<img class="logo" src="logo.png" alt="flux" />
+		</div>
+		<div class="flex-center desc left-margin">
+		</div>
+
+		<form id="sj-form" class="flex-center">
+			<input
+				id="sj-search-engine"
+				value="https://www.google.com/search?q=%s"
+				type="hidden"
+			/>
+			<input id="sj-address" type="text" placeholder="Search the web freely" />
+		</form>
+		<div class="desc left-margin">
+			<p id="sj-error"></p>
+			<pre id="sj-error-code"></pre>
+		</div>
+	</body>
+</html>

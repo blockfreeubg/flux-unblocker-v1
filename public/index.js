@@ -62,3 +62,11 @@ form.addEventListener("submit", async (event) => {
 	document.body.appendChild(frame.frame);
 	frame.go(url);
 });
+
+const params = new URLSearchParams(window.location.search);
+const autoUrl = params.get("url");
+
+if (autoUrl) {
+	address.value = autoUrl;
+	form.requestSubmit();
+}

@@ -415,7 +415,8 @@ hr {
     background: var(--bg);
     z-index: 1000;
     display: none;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     animation: slideInUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -429,13 +430,70 @@ hr {
 }
 
 .zone-header {
-    background: var(--gradient-primary);
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    width: min(1200px, calc(100% - 2rem));
+    background: rgba(15, 23, 42, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    backdrop-filter: blur(16px);
     color: white;
-    padding: 1rem 1.5rem;
+    padding: 0.85rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+    gap: 1rem;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.zone-header.minimized {
+    transform: translateX(-50%) translateY(calc(100% + 1rem));
+    opacity: 0;
+    pointer-events: none;
+}
+
+.zone-dock-toggle {
+    position: absolute;
+    left: 50%;
+    bottom: 5.25rem;
+    transform: translateX(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background: rgba(15, 23, 42, 0.78);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+    z-index: 3;
+    opacity: 1;
+    transition:
+        transform 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 0.26s ease,
+        background 0.2s ease;
+    will-change: transform, opacity;
+}
+
+.zone-dock-toggle:hover {
+    transform: translateX(-50%) translateY(-1px);
+    background: rgba(30, 41, 59, 0.9);
+}
+
+.zone-dock-toggle.minimized {
+    bottom: 0.9rem;
+}
+
+.zone-dock-toggle.auto-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(14px) scale(0.96);
 }
 
 .zone-title {
@@ -469,20 +527,23 @@ hr {
 
 .zone-controls {
     display: flex;
-    gap: 0.75rem;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .zone-controls button {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: white;
-    padding: 0.625rem 1rem;
+    padding: 0.55rem 0.9rem;
     border-radius: var(--radius);
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     backdrop-filter: blur(20px);
+    white-space: nowrap;
 }
 
 .zone-controls button:hover {
@@ -493,17 +554,27 @@ hr {
 }
 
 #zoneFrame {
-    flex-grow: 1;
     border: none;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#dockRevealZone {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 84px;
+    z-index: 2;
+    background: transparent;
 }
 
 #popupOverlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(8px);
+    background: rgba(2, 6, 16, 0.5);
+    backdrop-filter: blur(10px);
     display: none;
     align-items: center;
     justify-content: center;
@@ -522,7 +593,7 @@ hr {
 }
 
 .popup {
-    background: var(--surface);
+    background: rgba(15, 23, 42, 0.62);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-xl);
     width: 100%;
@@ -531,7 +602,8 @@ hr {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(18px);
     animation: slideInScale 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -547,12 +619,13 @@ hr {
 }
 
 .popup-header {
-    background: var(--gradient-primary);
+    background: rgba(15, 23, 42, 0.5);
     color: white;
     padding: 1.25rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #popupTitle {
@@ -588,6 +661,7 @@ hr {
     padding: 1.5rem;
     overflow-y: auto;
     color: var(--text);
+    background: transparent;
 }
 
 #popupBody input[type="text"],
@@ -597,7 +671,7 @@ hr {
     margin-bottom: 1.25rem;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    background: var(--bg-secondary);
+    background: rgba(15, 23, 42, 0.78);
     color: var(--text);
     font-size: 15px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -609,6 +683,41 @@ hr {
     border-color: var(--primary);
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.14);
     transform: translateY(-1px);
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.85rem 0.95rem;
+    border-radius: var(--radius);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(15, 23, 42, 0.62);
+}
+
+.setting-label {
+    font-size: 14px;
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+.setting-sub {
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+.setting-row input[type="checkbox"] {
+    transform: scale(1.1);
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+body.lag-off * {
+    backdrop-filter: none !important;
+    animation: none !important;
+    transition: none !important;
 }
 
 #settings-button {
@@ -697,6 +806,24 @@ footer {
         padding: 1rem 0.75rem;
         min-height: 65px;
         font-size: 13px;
+    }
+
+    .zone-header {
+        width: calc(100% - 1rem);
+        bottom: 0.5rem;
+        border-radius: 14px;
+    }
+
+    .zone-dock-toggle {
+        bottom: 4.6rem;
+    }
+
+    .zone-dock-toggle.minimized {
+        bottom: 0.5rem;
+    }
+
+    .zone-title {
+        min-width: 120px;
     }
 
 }
@@ -791,6 +918,8 @@ summary:focus {
     </main>
 
     <div id="zoneViewer">
+        <div id="dockRevealZone" aria-hidden="true"></div>
+        <button id="zoneDockToggle" class="zone-dock-toggle" onclick="toggleZoneDock()" aria-label="Minimize controls">−</button>
         <div class="zone-header">
             <div class="zone-title">
                 <h2 id="zoneName">zone</h2>
@@ -801,6 +930,7 @@ summary:focus {
                 <button onclick="fullscreenZone()">Fullscreen</button>
                 <button onclick="aboutBlank()">Open in New Tab</button>
                 <button onclick="downloadZone()">Download</button>
+                <button onclick="editCookies()">Edit Cookies</button>
                 <button onclick="closeZone()">Close</button>
             </div>
         </div>
@@ -825,6 +955,12 @@ const zoneViewer = document.getElementById('zoneViewer');
 let zoneFrame = document.getElementById('zoneFrame');
 const searchBar = document.getElementById('searchBar');
 const sortOptions = document.getElementById('sortOptions');
+const zoneHeader = document.querySelector('.zone-header');
+const zoneDockToggle = document.getElementById('zoneDockToggle');
+const dockRevealZone = document.getElementById('dockRevealZone');
+const dockAutoHideDelay = 5000;
+const dockRevealThreshold = 180;
+let dockAutoHideTimer = null;
 const hiddenZonePattern = /(comments|suggest\s*games)/i;
 // https://www.jsdelivr.com/tools/purge
 const zonesurls = [
@@ -1092,6 +1228,8 @@ function openZone(file) {
             document.getElementById('zoneName').textContent = file.name;
             document.getElementById('zoneId').textContent = file.id;
             document.getElementById('zoneAuthor').textContent = "by " + file.author;
+            setDockMinimized(false);
+            revealDockToggle();
             if (file.authorLink) {
                 document.getElementById('zoneAuthor').href = file.authorLink;
             }
@@ -1117,6 +1255,9 @@ function aboutBlank() {
 }
 
 function closeZone() {
+    setDockMinimized(false);
+    clearDockAutoHideTimer();
+    if (zoneDockToggle) zoneDockToggle.classList.remove('auto-hidden');
     zoneViewer.hidden = false;
     zoneViewer.style.display = "none";
     zoneViewer.removeChild(zoneFrame);
@@ -1140,6 +1281,80 @@ function downloadZone() {
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
     });
+}
+
+function editCookies() {
+    document.getElementById('popupTitle').textContent = "Edit Cookies";
+    const popupBody = document.getElementById('popupBody');
+    const currentCookies = document.cookie
+        .split(';')
+        .map(cookie => cookie.trim())
+        .filter(Boolean)
+        .join('\n');
+
+    popupBody.innerHTML = `
+        <p style="margin-top:0;">Edit one cookie per line (name=value). Changes apply for this site path.</p>
+        <textarea id="cookieEditor" style="width:100%; min-height:220px; resize:vertical; padding:0.875rem 1rem; border:1px solid var(--border); border-radius:var(--radius); background:var(--bg-secondary); color:var(--text); font-size:14px;">${currentCookies}</textarea>
+        <div style="display:flex; gap:0.75rem; margin-top:1rem;">
+            <button id="settings-button" onclick="applyCookieEdits()">Save Cookies</button>
+            <button id="settings-button" onclick="closePopup()">Cancel</button>
+        </div>
+    `;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+}
+
+function setDockMinimized(minimized) {
+    if (!zoneHeader || !zoneDockToggle) return;
+    zoneHeader.classList.toggle('minimized', minimized);
+    zoneDockToggle.classList.toggle('minimized', minimized);
+    zoneDockToggle.setAttribute('aria-label', minimized ? 'Expand controls' : 'Minimize controls');
+    zoneDockToggle.textContent = minimized ? '+' : '−';
+}
+
+function clearDockAutoHideTimer() {
+    if (dockAutoHideTimer) {
+        clearTimeout(dockAutoHideTimer);
+        dockAutoHideTimer = null;
+    }
+}
+
+function scheduleDockAutoHide() {
+    clearDockAutoHideTimer();
+    if (!zoneDockToggle || zoneViewer.style.display !== "block") return;
+    dockAutoHideTimer = setTimeout(() => {
+        zoneDockToggle.classList.add('auto-hidden');
+    }, dockAutoHideDelay);
+}
+
+function revealDockToggle() {
+    if (!zoneDockToggle) return;
+    zoneDockToggle.classList.remove('auto-hidden');
+    scheduleDockAutoHide();
+}
+
+function toggleZoneDock() {
+    if (!zoneHeader) return;
+    setDockMinimized(!zoneHeader.classList.contains('minimized'));
+    revealDockToggle();
+}
+
+function applyCookieEdits() {
+    const editor = document.getElementById('cookieEditor');
+    if (!editor) return;
+    const lines = editor.value
+        .split('\n')
+        .map(line => line.trim())
+        .filter(Boolean);
+
+    lines.forEach(line => {
+        if (!line.includes('=')) return;
+        const cookie = /;\s*path=/i.test(line) ? line : `${line}; path=/`;
+        document.cookie = cookie;
+    });
+
+    closePopup();
+    alert("Cookie edits applied.");
 }
 
 function fullscreenZone() {
@@ -1362,6 +1577,16 @@ function darkMode() {
     document.body.classList.toggle("dark-mode");
 }
 
+function setPerformanceMode(enabled) {
+    document.body.classList.toggle("lag-off", enabled);
+    localStorage.setItem("flux_games_performance_mode", enabled ? "1" : "0");
+}
+
+function initPerformanceMode() {
+    const enabled = localStorage.getItem("flux_games_performance_mode") === "1";
+    document.body.classList.toggle("lag-off", enabled);
+}
+
 function cloakIcon(url) {
     const link = document.querySelector("link[rel~='icon']");
     link.rel = "icon";
@@ -1400,7 +1625,15 @@ const settings = document.getElementById('settings');
 settings.addEventListener('click', () => {
     document.getElementById('popupTitle').textContent = "Settings";
     const popupBody = document.getElementById('popupBody');
+    const perfModeOn = document.body.classList.contains("lag-off");
     popupBody.innerHTML = `
+    <div class="setting-row">
+        <div>
+            <div class="setting-label">Performance Mode</div>
+            <div class="setting-sub">Disable blur and animations to reduce lag.</div>
+        </div>
+        <input type="checkbox" ${perfModeOn ? "checked" : ""} onchange="setPerformanceMode(this.checked)">
+    </div>
     <button id="settings-button" onclick="darkMode()">Toggle Dark Mode</button>
     <br><br>
     <button id="settings-button" onclick="tabCloak()">Tab Cloak</button>
@@ -1493,6 +1726,20 @@ function loadDMCA() {
 function closePopup() {
     document.getElementById('popupOverlay').style.display = "none";
 }
+
+document.addEventListener('mousemove', (event) => {
+    if (zoneViewer.style.display !== "block") return;
+    const nearBottom = (window.innerHeight - event.clientY) <= dockRevealThreshold;
+    if (nearBottom) revealDockToggle();
+});
+
+if (dockRevealZone) {
+    dockRevealZone.addEventListener('mouseenter', revealDockToggle);
+    dockRevealZone.addEventListener('mousemove', revealDockToggle);
+    dockRevealZone.addEventListener('touchstart', revealDockToggle, { passive: true });
+}
+
+initPerformanceMode();
 listZones();
 
 const schoolList = ["deledao", "goguardian", "lightspeed", "linewize", "securly", ".edu/"];

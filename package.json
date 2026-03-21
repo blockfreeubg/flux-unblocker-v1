@@ -2,7 +2,7 @@
   "name": "scramjet-demo",
   "version": "2.0.0",
   "description": "The demo application for Scramjet, a high-performance web proxy.",
-  "packageManager": "npm@10"
+  "packageManager": "npm@10",
   "type": "module",
   "engines": {
     "node": ">=16.0.0"

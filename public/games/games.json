@@ -10289,6 +10289,3431 @@
       "name": "GTA 2",
       "url": "https://euphoriauniversity.org/games/clgta22.html",
       "thumbnail": "euphoria.jpg"
+    },
+    {
+      "name": "1010 Color Match",
+      "url": "https://raw.githubusercontent.com/ubg98/ubg98.github.io/refs/heads/gh-pages/1010-color-match-unblocked.html",
+      "thumbnail": "ubg99.png"
+    },
+    {
+      "name": "1",
+      "url": "/games/1/index.html",
+      "thumbnail": "https://truffled.lol/png/games/1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "1 on 1 Soccer",
+      "url": "/games/1on1soccer/index.html",
+      "thumbnail": "https://truffled.lol/png/games/12.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "10 Minutes Till Dawn",
+      "url": "/games/10minutestilldawn/index.html",
+      "thumbnail": "https://truffled.lol/png/games/10.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "1v1.lol",
+      "url": "https://truffled.lol/gamefile/1v1.html",
+      "thumbnail": "https://truffled.lol/png/games/1v1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "2048",
+      "url": "/games/2048/index.html",
+      "thumbnail": "https://truffled.lol/png/games/2048.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "30",
+      "url": "/games/30dolar/index.html",
+      "thumbnail": "https://truffled.lol/png/games/30.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "-3",
+      "url": "/games/minus3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/minus3.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "A Difficult Game About Climbing, Webport",
+      "url": "https://truffled.lol/gamefile/adgac.html",
+      "thumbnail": "https://truffled.lol/png/games/adgac.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "A Small World Cup",
+      "url": "https://truffled.lol/gamefile/aswc.html",
+      "thumbnail": "https://truffled.lol/png/games/worldcup.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Academytale, Webport",
+      "url": "/games/academytale/index.html",
+      "thumbnail": "https://truffled.lol/png/games/academytale.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Achievement Unlocked",
+      "url": "/games/achieveunlocked/index.html",
+      "thumbnail": "https://truffled.lol/png/games/achieve.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "ADOFAI",
+      "url": "/games/a-dance-of-fire-and-ice/index.html",
+      "thumbnail": "https://truffled.lol/png/games/adofai.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Adventure Capitalist",
+      "url": "/games/adventure/index.html",
+      "thumbnail": "https://truffled.lol/png/games/adventure.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Amanda the adventurer, Webport",
+      "altNames": [
+        "Amanda the adventurer"
+      ],
+      "url": "/games/amanda-the-adventurer/index.html",
+      "thumbnail": "https://truffled.lol/png/games/aman.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Among us",
+      "url": "/games/amongus/index.html",
+      "thumbnail": "https://truffled.lol/png/games/among.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Amaze",
+      "url": "/games/amaze/index.html",
+      "thumbnail": "https://truffled.lol/png/games/amaze.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Angry Birds",
+      "url": "https://truffled.lol/gamefile/Angrybirds.html",
+      "thumbnail": "https://truffled.lol/png/games/angry.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Angry Birds Epic, Webport",
+      "url": "/games/Epic/index.html",
+      "thumbnail": "https://truffled.lol/png/games/epic.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Angry Birds Online",
+      "url": "https://truffled.lol/gamefile/angrybirdsonline.html",
+      "thumbnail": "https://truffled.lol/png/games/angrybirdsonline.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Antonblast",
+      "url": "https://truffled.lol/gamefile/anton.html",
+      "thumbnail": "https://truffled.lol/png/games/anton.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Apes Vs Helium, Webport",
+      "altNames": [
+        "Apes Vs Helium"
+      ],
+      "url": "/games/AVHPort/index.html",
+      "thumbnail": "https://truffled.lol/png/games/avh.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Arthur's Nightmare, Webport",
+      "altNames": [
+        "Arthur's Nightmare"
+      ],
+      "url": "https://truffled.lol/gamefile/arthur.html",
+      "thumbnail": "https://truffled.lol/png/games/arthursnight.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Bad Icecream 1",
+      "url": "https://truffled.lol/gamefile/badice1.html",
+      "thumbnail": "https://truffled.lol/png/games/badice1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bad Icecream 2",
+      "url": "https://truffled.lol/gamefile/badice2.html",
+      "thumbnail": "https://truffled.lol/png/games/badice2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bad Icecream 3",
+      "url": "https://truffled.lol/gamefile/badice3.html",
+      "thumbnail": "https://truffled.lol/png/games/badice3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bad Parenting, Webport",
+      "altNames": [
+        "Bad Parenting"
+      ],
+      "url": "/games/bad/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bad.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Bad Piggies",
+      "url": "https://truffled.lol/gamefile/piggies.html",
+      "thumbnail": "https://truffled.lol/png/games/badp.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bad time Simulator",
+      "url": "/games/bts/index.html",
+      "thumbnail": "https://truffled.lol/png/games/badt.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Balatro, Webport",
+      "altNames": [
+        "Balatro"
+      ],
+      "url": "/games/balatro/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldi's Basics",
+      "url": "/games/baldis-basics/index.html",
+      "thumbnail": "https://truffled.lol/png/games/baldi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldi's Basics Birthday Bash, Webport",
+      "url": "/games/bday/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bday.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldi's Basics Classic Remastered, Webport",
+      "altNames": [
+        "Baldi's Basics Classic Remastered"
+      ],
+      "url": "/games/BBCR/index.html",
+      "thumbnail": "https://truffled.lol/png/games/baldire.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldi's Basics Plus, Webport",
+      "altNames": [
+        "Baldi's Basics Plus"
+      ],
+      "url": "https://truffled.lol/gamefile/bbp.html",
+      "thumbnail": "https://truffled.lol/png/games/baldiplus.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldi's Fun New School Plus Ultimate Edition",
+      "altNames": [
+        "Baldi's Basics Classic Remastered"
+      ],
+      "url": "/games/bfs/",
+      "thumbnail": "https://truffled.lol/png/games/bfs.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baldurs Gate 2, Webport",
+      "altNames": [
+        "Baldurs Gate 2"
+      ],
+      "url": "/games/baldurs-gate-2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gate2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Banjo Kazooie",
+      "url": "https://truffled.lol/gamefile/banjokazooie.html",
+      "thumbnail": "https://truffled.lol/png/games/banjokazooie.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bart Blast",
+      "url": "https://truffled.lol/gamefile/bart.html",
+      "thumbnail": "https://truffled.lol/png/games/bart.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Baseball Bros",
+      "url": "/games/baseballbros/index.html",
+      "thumbnail": "https://truffled.lol/png/games/basebros.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Basket Bros",
+      "url": "https://truffled.lol/gamefile/basket.html",
+      "thumbnail": "https://truffled.lol/png/games/basketbro.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Basket Random",
+      "url": "/games/basket-random/index.html",
+      "thumbnail": "https://truffled.lol/png/games/basket.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Basketball stars",
+      "url": "/games/basketballstars/index.html",
+      "thumbnail": "https://truffled.lol/png/games/basketstars.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Beatblock, Webport",
+      "url": "/games/beatblock/index.html",
+      "thumbnail": "https://truffled.lol/png/games/beatblock.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bendy And The Ink Machine, Webport",
+      "altNames": [
+        "Bendy And The Ink Machine"
+      ],
+      "url": "/games/bendy/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bendy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bergentruck, Webport",
+      "altNames": [
+        "Bergentruck"
+      ],
+      "url": "/games/bergentruck/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ber.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bfdia 5b",
+      "url": "/games/bfdia 5b/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bfdia5b.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bitlife",
+      "url": "/games/bitlife/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bit.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Black Jack",
+      "url": "https://truffled.lol/gamefile/BlackJack.html",
+      "thumbnail": "https://truffled.lol/png/games/blackjack.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Block Blast",
+      "url": "/games/block-blast/index.html",
+      "thumbnail": "https://truffled.lol/png/games/unnamed.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloodmoney, Webport",
+      "altNames": [
+        "Bloodmoney"
+      ],
+      "url": "/games/bloodmoney/index.html",
+      "thumbnail": "https://truffled.lol/png/games/blood.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloon TD1",
+      "url": "/games/bloonstd/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bloons.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloon TD2",
+      "url": "/games/bloonstd2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/blo2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloon TD3",
+      "url": "/games/btd3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/blo3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloon TD4",
+      "url": "https://truffled.lol/gamefile/bloonstd4.html",
+      "thumbnail": "https://truffled.lol/png/games/btd4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloons TD5",
+      "url": "/games/btd5/index.html",
+      "thumbnail": "https://truffled.lol/png/games/blo5.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloons TD6",
+      "url": "/games/btd6/index.html",
+      "thumbnail": "https://truffled.lol/png/games/blo6.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bloxors",
+      "url": "/games/bloxors/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bloxorz.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bombmerman",
+      "url": "https://truffled.lol/gamefile/bomberman.html",
+      "thumbnail": "https://truffled.lol/png/games/bomberman.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Bombmerman 2",
+      "url": "https://truffled.lol/gamefile/bomberman2.html",
+      "thumbnail": "https://truffled.lol/png/games/bomberman2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Boxing Random",
+      "url": "https://truffled.lol/gamefile/boxing.html",
+      "thumbnail": "https://truffled.lol/png/games/boxing.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Brotato Paws And Claws, Webport",
+      "altNames": [
+        "Brotato"
+      ],
+      "url": "/games/brotato2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/paws.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Buckshot Roulette, Webport",
+      "altNames": [
+        "Buckshot Roulette"
+      ],
+      "url": "/games/buckshot/index.html",
+      "thumbnail": "https://truffled.lol/png/games/buck.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Burrito Bison",
+      "url": "/games/burrito/index.html",
+      "thumbnail": "https://truffled.lol/png/games/burrito.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Burrito Bison Revenge",
+      "url": "https://truffled.lol/gamefile/bbe.html",
+      "thumbnail": "https://truffled.lol/png/games/bbe.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "CaseOhs Basics in Eating and Fast Food, Webport",
+      "url": "https://truffled.lol/gamefile/caseoh.html",
+      "thumbnail": "https://truffled.lol/png/games/caseoh.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Celeste, Webport",
+      "url": "/games/celeste/index.html",
+      "thumbnail": "https://truffled.lol/png/games/celeste.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cheese Rolling, Webport",
+      "url": "https://truffled.lol/gamefile/cheese.html",
+      "thumbnail": "https://truffled.lol/png/games/cheeser.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Christmas Massacre, Webport",
+      "url": "https://truffled.lol/gamefile/christmas.html",
+      "thumbnail": "https://truffled.lol/png/games/christmas.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Class Of 09, Webport",
+      "altNames": [
+        "Class Of 09"
+      ],
+      "url": "/games/C09/index.html",
+      "thumbnail": "https://truffled.lol/png/games/class.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Class Of 09 Flipside, Webport",
+      "altNames": [
+        "Class Of 09 Flipside"
+      ],
+      "url": "/games/C09FS/index.html",
+      "thumbnail": "https://truffled.lol/png/games/flip.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Class Of 09 Re-Up, Webport",
+      "altNames": [
+        "Class Of 09 Re-Up"
+      ],
+      "url": "/games/C09RU/index.html",
+      "thumbnail": "https://truffled.lol/png/games/reup.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Clover Pit",
+      "url": "https://truffled.lol/gamefile/cloverpit.html",
+      "thumbnail": "https://truffled.lol/png/games/clover.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cluster Rush",
+      "url": "/games/cluster/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cluster.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Coffee Talk",
+      "url": "/games/coffee/index.html",
+      "thumbnail": "https://truffled.lol/png/games/coffee.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cookie Clicker",
+      "url": "/games/cookie-clicker/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cookie.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cooking Mama",
+      "url": "https://truffled.lol/gamefile/cookingmama.html",
+      "thumbnail": "https://truffled.lol/png/games/cookingmama.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cooking Mama 2",
+      "url": "https://truffled.lol/gamefile/cookingmama2.html",
+      "thumbnail": "https://truffled.lol/png/games/cookingmama2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cooking Mama 3",
+      "url": "https://truffled.lol/gamefile/cookingmama3.html",
+      "thumbnail": "https://truffled.lol/png/games/cookingmama3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Counter Stike 0.8",
+      "url": "/games/psp/cs/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cs08.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Crash Bandicoot 1",
+      "url": "https://truffled.lol/gamefile/crash1.html",
+      "thumbnail": "https://truffled.lol/png/games/crash1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Crash Bandicoot 2",
+      "url": "https://truffled.lol/gamefile/crash2.html",
+      "thumbnail": "https://truffled.lol/png/games/crash2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Crash Bandicoot 3",
+      "url": "https://truffled.lol/gamefile/crash3.html",
+      "thumbnail": "https://truffled.lol/png/games/crash3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Crazy Balls",
+      "url": "https://truffled.lol/gamefile/balls.html",
+      "thumbnail": "https://truffled.lol/png/games/balls.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "CrazyCattle3D, Webport",
+      "altNames": [
+        "CrazyCattle3D"
+      ],
+      "url": "/games/cattle3d/index.html",
+      "thumbnail": "https://truffled.lol/png/games/crazyca.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Crossy Roads",
+      "url": "https://truffled.lol/gamefile/crossy.html",
+      "thumbnail": "https://truffled.lol/png/games/crossy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Csgo Clicker",
+      "url": "/games/csgo-clicker/index.html",
+      "thumbnail": "https://truffled.lol/png/games/csgo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cuphead, Webport",
+      "altNames": [
+        "Cuphead"
+      ],
+      "url": "/games/Cuphead/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cup.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Customer Support, Webport",
+      "altNames": [
+        "Customer Support"
+      ],
+      "url": "/games/CustomerSupport/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cus.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Cut The Rope",
+      "url": "https://truffled.lol/gamefile/cut.html",
+      "thumbnail": "https://truffled.lol/png/games/cut1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cut The Rope : Time Travel",
+      "url": "https://truffled.lol/gamefile/time.html",
+      "thumbnail": "https://truffled.lol/png/games/time.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Cut The Rope Holiday",
+      "url": "https://truffled.lol/gamefile/hol.html",
+      "thumbnail": "https://truffled.lol/png/games/cut2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dadish",
+      "url": "https://truffled.lol/gamefile/dadish.html",
+      "thumbnail": "https://truffled.lol/png/games/dadish.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dadish 2",
+      "url": "https://truffled.lol/gamefile/dadish2.html",
+      "thumbnail": "https://truffled.lol/png/games/dadish2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dadish 3",
+      "url": "https://truffled.lol/gamefile/dadish3.html",
+      "thumbnail": "https://truffled.lol/png/games/dadish3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dadish 3d",
+      "url": "https://truffled.lol/gamefile/dadish3d.html",
+      "thumbnail": "https://truffled.lol/png/games/dadish3d.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dadish Daily",
+      "url": "https://truffled.lol/gamefile/daily.html",
+      "thumbnail": "https://truffled.lol/png/games/daily.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Danganronpa",
+      "url": "/games/danganronpa/index.html",
+      "thumbnail": "https://truffled.lol/png/games/dan.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "DEAD PLATE, Webport",
+      "altNames": [
+        "DEAD PLATE"
+      ],
+      "url": "https://truffled.lol/gamefile/dead.html",
+      "thumbnail": "https://truffled.lol/png/games/deadp.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dead Tapes",
+      "url": "/games/deadtapesfinal/index.html",
+      "thumbnail": "https://truffled.lol/png/games/deadta.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Deadseat, Webport",
+      "altNames": [
+        "Deadseat"
+      ],
+      "url": "/games/deadseat/index.html",
+      "thumbnail": "https://truffled.lol/png/games/deadseat.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Death Run 3D",
+      "url": "/games/death-run-3d/index.html",
+      "thumbnail": "https://truffled.lol/png/games/death.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Deltarune, Webport",
+      "altNames": [
+        "Deltarune"
+      ],
+      "url": "https://truffled.lol/gamefile/deltarune.html",
+      "thumbnail": "https://truffled.lol/png/games/deltarune.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Deltatraveler, Webport",
+      "altNames": [
+        "Deltatraveler"
+      ],
+      "url": "https://truffled.lol/gamefile/deltatr.html",
+      "thumbnail": "https://truffled.lol/png/games/deltatr.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Diablo",
+      "url": "/games/diablo/index.html",
+      "thumbnail": "https://truffled.lol/png/games/diablo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dice A Million, Webport",
+      "url": "https://truffled.lol/gamefile/diceamillion.html",
+      "thumbnail": "https://truffled.lol/png/games/diceamillion.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dinosaur",
+      "url": "/games/dinosaur/index.html",
+      "thumbnail": "https://truffled.lol/png/games/dino.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Do Not Take This Cat Home, Webport",
+      "altNames": [
+        "Do Not Take This Cat Home"
+      ],
+      "url": "/games/donottakethiscathome/index.html",
+      "thumbnail": "png/games/dont.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doge Miner",
+      "url": "https://truffled.lol/gamefile/Doge Miner.html",
+      "thumbnail": "https://truffled.lol/png/games/doge.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doge Miner 2",
+      "url": "https://truffled.lol/gamefile/dm2.html",
+      "thumbnail": "https://truffled.lol/png/games/dogeminer2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dome Keeper, Webport",
+      "url": "/games/domekeeper/index.html",
+      "thumbnail": "https://truffled.lol/png/games/domekeeper.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doodle Jump",
+      "url": "https://truffled.lol/gamefile/Doodle Jump.html",
+      "thumbnail": "png/games/doodle.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doom",
+      "url": "/games/doom/index.html",
+      "thumbnail": "https://truffled.lol/png/games/doom.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doom 2",
+      "url": "https://truffled.lol/gamefile/doom2.html",
+      "thumbnail": "https://truffled.lol/png/games/doom2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doom 3",
+      "url": "/games/doom3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/doom3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Doom 64",
+      "url": "https://truffled.lol/gamefile/doom64.html",
+      "thumbnail": "https://truffled.lol/png/games/doom64.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dr. Mario",
+      "url": "https://truffled.lol/gamefile/drmario.html",
+      "thumbnail": "https://truffled.lol/png/games/drmario.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dreadhead Parkour",
+      "url": "https://truffled.lol/gamefile/dread.html",
+      "thumbnail": "https://truffled.lol/png/games/dread.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Drift Boss",
+      "url": "/games/drift-boss/index.html",
+      "thumbnail": "https://truffled.lol/png/games/driftboss.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Drift Hunter",
+      "url": "https://truffled.lol/gamefile/drift.html",
+      "thumbnail": "https://truffled.lol/png/games/hunt.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Drive Mad",
+      "url": "/games/drive-mad/index.html",
+      "thumbnail": "https://truffled.lol/png/games/drive.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 1",
+      "url": "/games/ducklife1/index.html",
+      "thumbnail": "https://truffled.lol/png/games/duck1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 2",
+      "url": "/games/ducklife2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/duck2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 3",
+      "url": "/games/ducklife3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/duck3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 4",
+      "url": "/games/ducklife4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/duck4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 5",
+      "url": "/games/ducklife5/index.html",
+      "thumbnail": "https://truffled.lol/png/games/duck5.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 6",
+      "url": "/games/ducklife6/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ducklife6.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 7",
+      "url": "/games/ducklife7/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ducklife7.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Duck Life 8, Webport",
+      "url": "/games/ducklifeadv/",
+      "thumbnail": "https://truffled.lol/png/games/ducklifeadc.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Dumb Ways To Die",
+      "url": "/games/dumb/index.html",
+      "thumbnail": "https://truffled.lol/png/games/dumb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Eggy Car",
+      "url": "https://truffled.lol/gamefile/eggycar.html",
+      "thumbnail": "https://truffled.lol/png/games/eggycar.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Escape Road",
+      "url": "https://truffled.lol/gamefile/escape.html",
+      "thumbnail": "https://truffled.lol/png/games/road.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Escape Road 2",
+      "url": "https://truffled.lol/gamefile/road2.html",  
+      "thumbnail": "https://truffled.lol/png/games/escape2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Escape Road City 2",
+      "url": "https://truffled.lol/gamefile/roadcity2.html",
+      "thumbnail": "https://truffled.lol/png/games/roadcity.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Falling Fred",
+      "url": "/games/falling/index.html",
+      "thumbnail": "https://truffled.lol/png/games/super-falling-fred.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fallout",
+      "url": "https://truffled.lol/gamefile/falloutt.html",
+      "thumbnail": "https://truffled.lol/png/games/fallout.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fallout 2, Webport",
+      "url": "/games/fo2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fallout2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fancy Pants Adventures",
+      "url": "/games/fancypantsadventures/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fpa1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fancy Pants Adventures 2",
+      "url": "/games/fancypantsadventures2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fancy2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fancy Pants Adventures 3",
+      "url": "https://truffled.lol/gamefile/fpa3.html",
+      "thumbnail": "https://truffled.lol/png/games/fpa3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fears To Fathom: Home Alone, Webport",
+      "url": "/games/ftf/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fear.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Final Fantasy VII",
+      "url": "https://truffled.lol/gamefile/ffvii.html",
+      "thumbnail": "https://truffled.lol/png/games/ffvii.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fireboy and Watergirl",
+      "url": "/games/watergirl-1/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fire1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fireboy and Watergirl 2",
+      "url": "/games/watergirl-2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fire2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fireboy and Watergirl 3",
+      "url": "/games/watergirl-3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fire3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fireboy and Watergirl 4",
+      "url": "/games/watergirl-4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fire4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FISH, Webport",
+      "url": "https://truffled.lol/gamefile/fish.html",
+      "thumbnail": "https://truffled.lol/png/games/fish.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Five Nights At Candys",
+      "url": "https://truffled.lol/gamefile/fnac.html",
+      "thumbnail": "https://truffled.lol/png/games/fnac.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Five Nights At Candys 2",
+      "url": "https://truffled.lol/gamefile/fnac2.html",
+      "thumbnail": "https://truffled.lol/png/games/fnac2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Five Nights At Epsteins, Webport",
+       "altNames": [
+        "Five Nights At Epsteins"
+      ],
+      "url": "https://truffled.lol/gamefile/fnae.html",
+      "thumbnail": "https://truffled.lol/png/games/fnae.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Five Nights At Last Breath, Webport",   
+      "url": "https://truffled.lol/gamefile/breath.html",
+      "thumbnail": "https://truffled.lol/png/games/breath.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Flappy bird",
+      "url": "/games/flappybird/index.html",
+      "thumbnail": "https://truffled.lol/png/games/flapp.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Flying Gorilla, Webport",
+      "url": "https://truffled.lol/gamefile/gorilla.html",
+      "thumbnail": "https://truffled.lol/png/games/flying.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF",
+      "url": "/games/fnaf/index.html",
+      "thumbnail": "https://truffled.lol/png/games/splash.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF Sisters Location",
+      "url": "https://truffled.lol/gamefile/fnafs.html",
+      "thumbnail": "https://truffled.lol/png/games/sister.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF Ultimate Custom Night",
+      "url": "https://truffled.lol/gamefile/fnafu.html",
+      "thumbnail": "https://truffled.lol/png/games/custom.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF World",
+      "url": "https://truffled.lol/gamefile/fnafw.html",
+      "thumbnail": "https://truffled.lol/png/games/fnafworld.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF World Refreshed",
+      "url": "/games/fnw/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fne.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF2",
+      "url": "/games/2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fnaf2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF3",
+      "url": "/games/3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/3f.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF4",
+      "url": "/games/fnaf4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fnaf4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAF4 Halloween",
+      "url": "https://truffled.lol/gamefile/ween.html",
+      "thumbnail": "https://truffled.lol/png/games/hollowween.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNAW",
+      "url": "https://truffled.lol/gamefile/fnaw.html",
+      "thumbnail": "https://truffled.lol/png/games/fnaw.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "FNF, Friday Night Funkin",
+      "altNames": [
+        "Friday Night Funkin"
+      ],
+      "url": "https://truffled.lol/gamefile/fnf.html",
+      "thumbnail": "https://truffled.lol/png/games/fnf.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Friday Night Funkin Bop City",
+      "url": "https://truffled.lol/gamefile/bopcity.html",
+      "thumbnail": "https://truffled.lol/png/games/bopcity.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Football Bros",
+      "url": "/games/footballbros/index.html",
+      "thumbnail": "https://truffled.lol/png/games/footbros.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fruit Ninja",
+      "url": "/games/fruitninja/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ninja.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Fused240",
+      "url": "/games/fused240/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fused240.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gacha Life",
+      "url": "https://truffled.lol/gamefile/life.html",
+      "thumbnail": "https://truffled.lol/png/games/gachalife.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gacha Verse",
+      "url": "https://truffled.lol/gamefile/verse.html",
+      "thumbnail": "https://truffled.lol/png/games/gachaverse.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Getaway Shootout",
+      "url": "/games/getaway-shootout/index.html",
+      "thumbnail": "https://truffled.lol/png/games/getaway.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Getting Over It, Webport",
+      "url": "https://truffled.lol/gamefile/goi.html",
+      "thumbnail": "https://truffled.lol/png/games/gettin.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gladihoppers",
+      "url": "https://truffled.lol/gamefile/Gladihoppers.html",
+      "thumbnail": "https://truffled.lol/png/games/glad.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Go to bed, Webport",
+      "altNames": [
+        "Go to bed"
+      ],
+      "url": "/games/GTB/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gotobed.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Google Baseball",
+      "url": "https://truffled.lol/gamefile/gbase.html",
+      "thumbnail": "https://truffled.lol/png/games/google.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gorilla Tag, Webport",
+      "altNames": [
+        "Gorilla Tag"
+      ],
+      "url": "/games/gtag/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gtag.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Granny",
+      "url": "/games/Granny/index.html",
+      "thumbnail": "https://truffled.lol/png/games/granny.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Granny 2",
+      "url": "https://truffled.lol/gamefile/Granny 2.html",
+      "thumbnail": "https://truffled.lol/png/games/gran2.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Granny 3",
+      "url": "https://truffled.lol/gamefile/Granny 3.html",
+      "thumbnail": "https://truffled.lol/png/games/gran3.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Gravity run",
+      "url": "/games/gravity-run/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gravity.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Greybox",
+      "url": "/games/graybox/index.html",
+      "thumbnail": "https://truffled.lol/png/games/grey.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "GTA I",
+      "url": "/games/gta/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gta.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "GTA II",
+      "url": "/games/gta2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gta2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "GTA III",
+      "url": "/games/gta3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gta3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "GTA San Andreas",
+      "url": "/games/gtasan/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gtasan.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "GTA Vice City, Webport",
+      "url": "/games/vicecity/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vice.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gun Mayhem",
+      "url": "/games/funmayhem/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gun.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gun Mayhem 2",
+      "url": "/games/funmayhem2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gun2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gun Mayhem Redux",
+      "url": "/games/funmayhemredux/index.html",
+      "thumbnail": "https://truffled.lol/png/games/gun3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Gunspin",
+      "url": "/games/gunspin/index.html",
+      "thumbnail": "https://truffled.lol/png/games/guns.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Half life",
+      "url": "/games/hl-main/index.html",
+      "thumbnail": "https://truffled.lol/png/games/halflife.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Half life: Opposing Force",
+      "url": "https://truffled.lol/gamefile/hlof.html",
+      "thumbnail": "https://truffled.lol/png/games/hlof.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Happy Wheels",
+      "url": "/games/happywheels/index.html",
+      "thumbnail": "https://truffled.lol/png/games/happy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Hollow Knight, Webport",
+      "altNames": [
+        "Hollow Knight"
+      ],
+      "url": "/games/hollowknight/index.html",
+      "thumbnail": "https://truffled.lol/png/games/hollow.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Hotline Miami, Webport",
+      "altNames": [
+        "Hotline Miami"
+      ],
+      "url": "/games/whores/index.html",
+      "thumbnail": "https://truffled.lol/png/games/hot.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "House Of Hazards",
+      "url": "/games/houseofhazards/index.html",
+      "thumbnail": "https://truffled.lol/png/games/house.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "HUMAN EXPENDITURE PROGRAM, Webport",
+      "altNames": [
+        "HUMAN EXPENDITURE PROGRAM"
+      ],
+      "url": "https://truffled.lol/gamefile/human.html",
+      "thumbnail": "https://truffled.lol/png/games/human.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Ice Baby Quest 2",
+      "url": "/games/icebaby2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/icebaby2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Idle Breakout",
+      "url": "/games/idle-breakout/index.html",
+      "thumbnail": "https://truffled.lol/png/games/idle.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Iron Lung, Webport",
+      "url": "/games/ironlung/index.html",
+      "thumbnail": "https://truffled.lol/png/games/iroonlung.webp",
+      "frameType": "iframe"
+    },
+      {
+      "name": "Jeffrey Epstein Basics In Education And Kidnapping, Webport",
+      "url": "https://truffled.lol/gamefile/jeb.html",
+      "thumbnail": "https://truffled.lol/png/games/jeb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Jeffys Basics, Webport",
+      "url": "/games/JeffysBasicsBog/index.html",
+      "thumbnail": "https://truffled.lol/png/games/jeffys.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Jelly Drift",
+      "url": "https://truffled.lol/gamefile/jelly.html",
+      "thumbnail": "https://truffled.lol/png/games/jelly.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Jetpack Joyride",
+      "url": "/games/jetpackjoyride/index.html",
+      "thumbnail": "https://truffled.lol/png/games/jet.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Jumbo Mario",
+      "url": "/games/JumboMario/index.html",
+      "thumbnail": "https://truffled.lol/png/games/jumbo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Karlson, Webport",
+      "altNames": [
+        "Karlson"
+      ],
+      "url": "https://truffled.lol/gamefile/Karlson.html",
+      "thumbnail": "https://truffled.lol/png/games/karlson.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Karlson2D, Webport",
+      "altNames": [
+        "Karlson2D"
+      ],
+      "url": "/games/karlson2d/truffledkarlson2d/index.html",
+      "thumbnail": "https://truffled.lol/png/games/karlson2d.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Kindergarten 1, Webport",
+      "altNames": [
+        "Kindergarten 1"
+      ],
+      "url": "/games/kindergarten/1/index.html",
+      "thumbnail": "https://truffled.lol/png/games/kind1.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Kindergarten 2, Webport",
+      "altNames": [
+        "Kindergarten 2"
+      ],
+      "url": "/games/kindergarten/2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/kind2.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Kindergarten 3, Webport",
+      "altNames": [
+        "Kindergarten 3"
+      ],
+      "url": "/games/Kindergarten3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/kind3.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Kirby Soft And Wet, Webport",
+      "url": "https://truffled.lol/gamefile/kirbysoftandwet.html",
+      "thumbnail": "https://truffled.lol/png/games/kirbysoftandwet.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Klifur",
+      "url": "/games/kilfur/index.html",
+      "thumbnail": "https://truffled.lol/png/games/kil.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Lacey's Flash Games, Webport",
+      "altNames": [
+        "Lacey's Flash Games"
+      ],
+      "url": "https://truffled.lol/gamefile/lacy.html",
+      "thumbnail": "https://truffled.lol/png/games/lacey.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Learn To Fly",
+      "url": "/games/learntofly/index.html",
+      "thumbnail": "https://truffled.lol/png/games/learn1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Learn To Fly 2",
+      "url": "/games/learntofly2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/learn2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Learn To Fly 3",
+      "url": "/games/ltf3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/learn3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Learn To Fly Idle",
+      "url": "/games/learntoflyidle/index.html",
+      "thumbnail": "https://truffled.lol/png/games/learni.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Lego Star Wars",
+      "url": "https://truffled.lol/gamefile/legostarwars.html",
+      "thumbnail": "https://truffled.lol/png/games/legostarwars.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Level Devil",
+      "url": "/games/lvldevil/index.html",
+      "thumbnail": "https://truffled.lol/png/games/level.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Line Rider",
+      "url": "/games/linerider/index.html",
+      "thumbnail": "https://truffled.lol/png/games/line.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Little Alchemy",
+      "url": "/games/littlealchemy/index.html",
+      "thumbnail": "https://truffled.lol/png/games/lil.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Little Alchemy 2",
+      "url": "https://truffled.lol/gamefile/little2.html",
+      "thumbnail": "https://truffled.lol/png/games/little2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Little Big Planet",
+      "url": "/games/lbp/index.html",
+      "thumbnail": "https://truffled.lol/png/games/lbp.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Madness Melee",
+      "url": "/games/bogtruffled/index.html",
+      "thumbnail": "https://truffled.lol/png/games/madness.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Mario party 1",
+      "url": "https://truffled.lol/gamefile/marioparty.html",
+      "thumbnail": "https://truffled.lol/png/games/marioparty1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Mario party 2",
+      "url": "https://truffled.lol/gamefile/marioparty2.html",
+      "thumbnail": "https://truffled.lol/png/games/marioparty2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Mario party 3",
+      "url": "https://truffled.lol/gamefile/marioparty3.html",
+      "thumbnail": "https://truffled.lol/png/games/marioparty3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Megaman",
+      "url": "https://truffled.lol/gamefile/megaman.html",
+      "thumbnail": "https://truffled.lol/png/games/megaman.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Melon Playground",
+      "url": "/games/melon-playground/index.html",
+      "thumbnail": "https://truffled.lol/png/games/melon.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Merge Rot",
+      "url": "/games/mergerot/index.html",
+      "thumbnail": "https://truffled.lol/png/games/rot.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Milkman karlson, Webport",
+      "altNames": [
+        "Milkman karlson"
+      ],
+      "url": "/games/milk/index.html",
+      "thumbnail": "png/games/milk.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Minecraft 1.12.2",
+      "url": "/games/eglar/1dot12dot2/index.html",
+      "thumbnail": "/games/eglar/1.12.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Minecraft 1.5.2",
+      "url": "https://truffled.lol/gamefile/1.5.2.html",
+      "thumbnail": "https://truffled.lol/png/games/1.5.2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Minecraft 1.8.8",
+      "url": "/games/eglar/EaglercraftX_1dot8_Web/index.html",
+      "thumbnail": "/games/eglar/1.8.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Minecraft Pocket Edition, Webport",
+      "url": "/games/mcpe/index.html",
+      "thumbnail": "https://truffled.lol/png/games/mcpe.webp",
+      "frameType": "iframe"
+    },
+        {
+      "name": "Minecraft Wurst",
+      "url": "/games/eglar/clwurst.html",
+      "thumbnail": "/games/eglar/wurst.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Minesweeper Mania",
+      "url": "https://truffled.lol/gamefile/minesweepermania.html",
+      "thumbnail": "https://truffled.lol/png/games/minese.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Minesweeper Plus, Webport",
+      "url": "https://truffled.lol/gamefile/mineplus.html",
+      "thumbnail": "https://truffled.lol/png/games/mineseplu.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Monkey Mart",
+      "url": "/games/MonkeyMart/index.html",
+      "thumbnail": "https://truffled.lol/png/games/monkey.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Moto X3M",
+      "url": "/games/motox3m/index.html",
+      "thumbnail": "https://truffled.lol/png/games/moto.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "My teardrop, daniel",
+      "altNames": [
+        "My Teardrop"
+      ],
+      "url": "https://truffled.lol/gamefile/mytear.html",
+      "thumbnail": "https://truffled.lol/png/games/mytear.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "n-gon",
+      "url": "/games/n-gon/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ngon.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Nazi Zombies: Portable",
+      "url": "https://truffled.lol/gamefile/nzp.html",
+      "thumbnail": "https://truffled.lol/png/games/nazi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Needy Streamer Overload, Webport",
+      "url": "/games/nso/index.html",
+      "thumbnail": "https://truffled.lol/png/games/nso.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "New Super Mario Bros",
+      "url": "/games/nsmb/index.html",
+      "thumbnail": "https://truffled.lol/png/games/nsmb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Node Buster, Webport",
+      "url": "/games/nodebuster/index.html",
+      "thumbnail": "https://truffled.lol/png/games/nodebuster.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Nubbys Number Factory, Webport",
+      "url": "https://truffled.lol/gamefile/nubby.html",
+      "thumbnail": "https://truffled.lol/png/games/nubby.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Om Nom Run",
+      "url": "https://truffled.lol/gamefile/omnomrun.html",
+      "thumbnail": "https://truffled.lol/png/games/omnomrun.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "OMORI, Webport",
+      "url": "https://truffled.lol/gamefile/OMORI.html",
+      "thumbnail": "https://truffled.lol/png/games/omori.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Oneshot, Webport",
+      "url": "https://truffled.lol/gamefile/oneshot.html",
+      "thumbnail": "https://truffled.lol/png/games/oneshot.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Orange Roulette",
+      "url": "https://truffled.lol/gamefile/orange.html",
+      "thumbnail": "https://truffled.lol/png/games/orange.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Oshi Oshi Punch",
+      "url": "https://truffled.lol/gamefile/onshi.html",
+      "thumbnail": "https://truffled.lol/png/games/oshi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Osu!",
+      "url": "/games/osu!/index.html",
+      "thumbnail": "https://truffled.lol/png/games/osu.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Overburden, Webport",
+      "url": "https://truffled.lol/gamefile/overburden.html",
+      "thumbnail": "https://truffled.lol/png/games/overburden.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "OvO",
+      "url": "/games/ovo/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ovo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "OvO 2",
+      "url": "/games/OvO2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ovo2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "OvO Dimensions",
+      "url": "/games/OvoDimensions/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ovodi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pacman",
+      "url": "/games/pacman/index.html",
+      "thumbnail": "https://truffled.lol/png/games/pacman.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pacman World",
+      "url": "https://truffled.lol/gamefile/pacmanw.html",
+      "thumbnail": "https://truffled.lol/png/games/pacmanworld.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pacman World 2",
+      "url": "https://truffled.lol/gamefile/pacmanw2.html",
+      "thumbnail": "https://truffled.lol/png/games/pacmanworld2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Paint Gal Adventures",
+      "url": "/games/paintbog/Paint Gal Adventures.html",
+      "thumbnail": "https://truffled.lol/png/games/paintgal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Bakeria",
+      "url": "/games/papasbakeria/index.html",
+      "thumbnail": "https://truffled.lol/png/games/bake.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Burgeria",
+      "url": "/games/papasburgeria/index.html",
+      "thumbnail": "https://truffled.lol/png/games/burger.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Cheeseria",
+      "url": "/games/papascheeseria/index.html",
+      "thumbnail": "https://truffled.lol/png/games/cheese.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Donuteria",
+      "url": "/games/papasdonuteria/index.html",
+      "thumbnail": "https://truffled.lol/png/games/donut.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Freezeria",
+      "url": "/games/papasfreezeria/index.html",
+      "thumbnail": "https://truffled.lol/png/games/freeze.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papas Pizzaeria",
+      "url": "/games/papaspizza/index.html",
+      "thumbnail": "https://truffled.lol/png/games/pizza.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Paper Mario",
+      "url": "https://truffled.lol/gamefile/papermario.html",
+      "thumbnail": "https://truffled.lol/png/games/papermario.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Paperio 2",
+      "url": "/games/paperio2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/paperio2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Papers, Please",
+      "url": "https://truffled.lol/gamefile/papers.html",
+      "thumbnail": "https://truffled.lol/png/games/papers.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Parappa The Rapper",
+      "url": "/games/paps/index.html",
+      "thumbnail": "https://truffled.lol/png/games/rapper.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Parappa The Rapper 2",
+      "url": "/games/parappa2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/parappa2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Peaks of Yore, Webport",
+      "url": "https://truffled.lol/gamefile/peaksofyore.html",
+      "thumbnail": "https://truffled.lol/png/games/peaksofyore.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Peggle",
+      "url": "https://truffled.lol/gamefile/Peggle.html",
+      "thumbnail": "https://truffled.lol/png/games/peggle.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "People Playground, Webport",
+      "url": "/games/PPG/index.html",
+      "thumbnail": "https://truffled.lol/png/games/peoplepg.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Pixel Gun 3D",
+      "url": "/games/pixl/index.html",
+      "thumbnail": "https://truffled.lol/png/games/pixelgun.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pizza Tower, Webport",
+      "url": "https://truffled.lol/gamefile/Pizza Tower.html",
+      "thumbnail": "https://truffled.lol/png/games/pizzatower.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pizza Tower: Scoutdigo",
+      "url": "https://truffled.lol/gamefile/pts.html",
+      "thumbnail": "https://truffled.lol/png/games/pts.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Plants VS Zombies",
+      "url": "https://truffled.lol/gamefile/pvs.html",
+      "thumbnail": "https://truffled.lol/png/games/pvz.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Plants VS Zombies Garden Endless",
+      "url": "/games/pvzge/index.html",
+      "thumbnail": "https://truffled.lol/png/games/pvz2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Academy Life Forever",
+      "url": "https://truffled.lol/gamefile/pokemonacademy.html",
+      "thumbnail": "https://truffled.lol/png/games/pokemonacademy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Blue",
+      "url": "https://truffled.lol/gamefile/blue.html",
+      "thumbnail": "https://truffled.lol/png/games/blue.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Crystal",
+      "url": "https://truffled.lol/gamefile/blob.html",
+      "thumbnail": "https://truffled.lol/png/games/crystal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Emerald",
+      "url": "https://truffled.lol/gamefile/em.html",
+      "thumbnail": "https://truffled.lol/png/games/em.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Gold",
+      "url": "https://truffled.lol/gamefile/red.html",
+      "thumbnail": "https://truffled.lol/png/games/gold.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pokemon Red",
+      "url": "https://truffled.lol/gamefile/red.html",
+      "thumbnail": "https://truffled.lol/png/games/pokemonfirered.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Polytrack",
+      "url": "/games/polytrack/index.html",
+      "thumbnail": "https://truffled.lol/png/games/poly.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Portal",
+      "url": "/games/portal/index.html",
+      "thumbnail": "https://truffled.lol/png/games/portal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Postal, Webport",
+      "url": "https://truffled.lol/gamefile/postal.html",
+      "thumbnail": "https://truffled.lol/png/games/postal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Pretend its not there, Webport",
+      "altNames": [
+        "Pretend its not there"
+      ],
+      "url": "/games/pretenditsnotthere/index.html",
+      "thumbnail": "https://truffled.lol/png/games/pre.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Quake",
+      "url": "/games/quake/index.html",
+      "thumbnail": "https://truffled.lol/png/games/quake.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Quake II",
+      "url": "/games/quakeii/index.html",
+      "thumbnail": "https://truffled.lol/png/games/quakeii.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Quake III",
+      "url": "/games/quakeiii/Quake3.htm",
+      "thumbnail": "https://truffled.lol/png/games/quakeiii.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Raft Wars",
+      "url": "/games/raft-wars/index.html",
+      "thumbnail": "https://truffled.lol/png/games/raft1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Raft Wars 2",
+      "url": "/games/raft-wars-2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/raft2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "RAFT, Webport",
+      "altNames": [
+        "RAFT"
+      ],
+      "url": "/games/raft/index.html",
+      "thumbnail": "https://truffled.lol/png/games/raft.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Ragdoll Archers",
+      "url": "/games/ragdoll-archers/index.html",
+      "thumbnail": "https://truffled.lol/png/games/archer.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Ragdoll Hit",
+      "url": "/games/ragdoll/index.html",
+      "thumbnail": "https://truffled.lol/png/games/hit.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Raldi's Crack House",
+      "url": "/games/raldi/index.html",
+      "thumbnail": "https://truffled.lol/png/games/raldi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Rayman",
+      "url": "https://truffled.lol/gamefile/rayman.html",
+      "thumbnail": "https://truffled.lol/png/games/rayman.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "RE:RUN, Webport",
+      "altNames": [
+        "RE:RUN"
+      ],
+      "url": "/games/rerun/index.html",
+      "thumbnail": "https://truffled.lol/png/games/rerun.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "REPO, Webport",
+      "altNames": [
+        "REPO"
+      ],
+      "url": "/games/repo/index.html",
+      "thumbnail": "https://truffled.lol/png/games/repo.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Resident Evil 1",
+      "url": "https://truffled.lol/gamefile/res1.html",
+      "thumbnail": "https://truffled.lol/png/games/res1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Resident Evil 2",
+      "url": "https://truffled.lol/gamefile/res2.html",
+      "thumbnail": "https://truffled.lol/png/games/res2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Retro Bowl",
+      "url": "/games/retro-bowl/index.html",
+      "thumbnail": "https://truffled.lol/png/games/retro.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Retro Bowl College",
+      "url": "/games/rbcollege/index.html",
+      "thumbnail": "https://truffled.lol/png/games/retroc.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School",
+      "url": "/games/riddleschool/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddle1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School 2",
+      "url": "/games/sriddleschool2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddle2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School 3",
+      "url": "/games/riddleschool3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddle3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School 4",
+      "url": "/games/riddleschool4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddle4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School 5",
+      "url": "/games/riddleschool5/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddle5.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School Transfer",
+      "url": "/games/riddleschooltransfer/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddletr.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Riddle School Transfer 2",
+      "url": "/games/riddleschooltransfer2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/riddletr2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Rooftop Snipers",
+      "url": "/games/rooftop-snipers/index.html",
+      "thumbnail": "https://truffled.lol/png/games/roof2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Rooftop Snipers 2",
+      "url": "/games/rooftop-snipers-2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/roof1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Run",
+      "url": "https://truffled.lol/gamefile/run.html",
+      "thumbnail": "https://truffled.lol/png/games/run1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Run 2",
+      "url": "https://truffled.lol/gamefile/run2.html",
+      "thumbnail": "https://truffled.lol/png/games/run2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Run 3",
+      "url": "https://truffled.lol/gamefile/run3.html",
+      "thumbnail": "https://truffled.lol/png/games/run3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Running Fred, Webport",
+      "url": "/games/fred/index.html",
+      "thumbnail": "https://truffled.lol/png/games/fred.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Saihate Station, Webport",
+      "url": "https://truffled.lol/gamefile/saihatestation.html",
+      "thumbnail": "https://truffled.lol/png/games/saihatestation.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sandboxels",
+      "url": "https://truffled.lol/gamefile/Sandboxels.html",
+      "thumbnail": "https://truffled.lol/png/games/sand.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sanic Ball, Webport",
+      "altNames": [
+        "Sanic Ball"
+      ],
+      "url": "/games/ball/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sanicball.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Scary Path",
+      "url": "/games/scary-path/index.html",
+      "thumbnail": "https://truffled.lol/png/games/path.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Shift At Midnight, Webport",
+      "url": "https://truffled.lol/gamefile/shift.html",
+      "thumbnail": "https://truffled.lol/png/games/shift.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Silksong, Webport",
+      "url": "/games/silk/index.html",
+      "thumbnail": "https://truffled.lol/png/games/silk.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Skibidi Shooter",
+      "url": "/games/skibidi-shooter/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ski.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slender: The 8 Pages, Webport",
+      "altNames": [
+        "Slender: The 8 Pages"
+      ],
+      "url": "/games/slender/index.html",
+      "thumbnail": "https://truffled.lol/png/games/slender.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slendytubbies, Webport",
+      "altNames": [
+        "Slendytubbies"
+      ],
+      "url": "/games/slendy/index.html",
+      "thumbnail": "https://truffled.lol/png/games/slendy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slient Hill",
+      "url": "https://truffled.lol/gamefile/slienthill.html",
+      "thumbnail": "https://truffled.lol/png/games/slienthill.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slime Ranchers, Webport",
+      "altNames": [
+        "Slime Ranchers"
+      ],
+      "url": "https://truffled.lol/gamefile/Slimerancher.html",
+      "thumbnail": "https://truffled.lol/png/games/slime.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slither.io, Webport",
+      "altNames": [
+        "Slither.io"
+      ],
+      "url": "https://truffled.lol/gamefile/sfge.html",
+      "thumbnail": "https://truffled.lol/png/games/sli.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slope",
+      "url": "/games/slope/index.html",
+      "thumbnail": "https://truffled.lol/png/games/slope.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Slowroads",
+      "url": "/games/slowroads/index.html",
+      "thumbnail": "https://truffled.lol/png/games/slow.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "SM64, Super Mario 64",
+      "altNames": [
+        "Super Mario 64",
+        "SM64"
+      ],
+      "url": "/games/sm64/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sm64.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Mario Bros",
+      "url": "https://truffled.lol/gamefile/smb.html",
+      "thumbnail": "https://truffled.lol/png/games/smb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Mario Galaxy DS",
+      "url": "https://truffled.lol/gamefile/smgds.html",
+      "thumbnail": "https://truffled.lol/png/games/smgds.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Oliver World",
+      "url": "https://truffled.lol/gamefile/superoliverworld.html",
+      "thumbnail": "https://truffled.lol/png/games/superoliverworld.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Smash Bros",
+      "url": "https://truffled.lol/gamefile/ssm.html",
+      "thumbnail": "https://truffled.lol/png/games/ssm.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Smash Karts",
+      "url": "/games/smashkarts/index.html",
+      "thumbnail": "https://truffled.lol/png/games/smashkarts.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Snow Rider 3D",
+      "url": "/games/snowrider3D-main/index.html",
+      "thumbnail": "https://truffled.lol/png/games/snow.webp",
+      "frameType": "iframe"
+    },
+        {
+      "name": "Snow Battle",
+      "url": "https://truffled.lol/gamefile/snow.html",
+      "thumbnail": "https://truffled.lol/png/games/snowio.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Soccer Bros",
+      "url": "/games/soccerbros/index.html",
+      "thumbnail": "https://truffled.lol/png/games/soccer.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Soccer Random",
+      "url": "/games/soccer-random/index.html",
+      "thumbnail": "https://truffled.lol/png/games/soccerra.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Solar Smash",
+      "url": "https://truffled.lol/gamefile/solar.html",
+      "thumbnail": "https://truffled.lol/png/games/solar.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Solitaire",
+      "url": "/games/solitaire/index.html",
+      "thumbnail": "https://truffled.lol/png/games/soli.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic 1",
+      "url": "/games/sonic/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sonic1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic 2",
+      "url": "/games/sonic2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sonic2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic 3",
+      "url": "/games/sonic3/sonic3.html",
+      "thumbnail": "https://truffled.lol/png/games/sonic3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic 4",
+      "url": "/games/sonic4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sonic4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic 3D Blast",
+      "url": "https://truffled.lol/gamefile/sonic3dblast.html",
+      "thumbnail": "https://truffled.lol/png/games/sonic3dblast.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic CD",
+      "url": "/games/soniccd/soniccd.html",
+      "thumbnail": "https://truffled.lol/png/games/soniccd.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic EXE",
+      "url": "https://truffled.lol/gamefile/sonicexe.html",
+      "thumbnail": "https://truffled.lol/png/games/sonicexe.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic Jam",
+      "url": "https://truffled.lol/gamefile/sonicjam.html",
+      "thumbnail": "https://truffled.lol/png/games/sonicjam.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic Mania, Webport",
+      "url": "https://truffled.lol/gamefile/sonic.html",
+      "thumbnail": "https://truffled.lol/png/games/mania.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic R",
+      "url": "https://truffled.lol/gamefile/sonicr.html",
+      "thumbnail": "https://truffled.lol/png/games/sonicr.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic Robo Blast 2",
+      "url": "/games/srb2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/robo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic Robo Blast 2 KART",
+      "url": "/games/kart/index.html",
+      "thumbnail": "https://truffled.lol/png/games/kart.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Sonic World Next",
+      "url": "/games/swn/index.html",
+      "thumbnail": "https://truffled.lol/png/games/swn.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Space waves",
+      "url": "https://truffled.lol/gamefile/spacewaves.html",
+      "thumbnail": "https://truffled.lol/png/games/space.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Spank the monkey, bogs favorites",
+      "altNames": [
+        "Spank the monkey"
+      ],
+      "url": "https://truffled.lol/gamefile/monkey.html",
+      "thumbnail": "https://truffled.lol/png/games/monk.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Speed Stars",
+      "url": "/games/speed-stars/index.html",
+      "thumbnail": "https://truffled.lol/png/games/speed.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Spelunky Classic HD",
+      "url": "https://truffled.lol/gamefile/spelunky.html",
+      "thumbnail": "https://truffled.lol/png/games/spelunkyclassic.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Starbound, Webport",
+      "url": "/games/Starbound/index.html",
+      "thumbnail": "https://truffled.lol/png/games/starbound.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Stick With It, Webport",
+      "url": "/games/stick/index.html",
+      "thumbnail": "https://truffled.lol/png/games/stick.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Stickman Hook",
+      "url": "/games/stickman-hook/index.html",
+      "thumbnail": "https://truffled.lol/png/games/stickman.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Subway Surfers",
+      "url": "/games/subway-surfers/index.html",
+      "thumbnail": "https://truffled.lol/png/games/sub.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Hot",
+      "url": "/games/superhot/index.html",
+      "thumbnail": "https://truffled.lol/png/games/superhot.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Meat Boy",
+      "url": "/games/meatboy/index.html",
+      "thumbnail": "https://truffled.lol/png/games/meat.webp",
+      "frameType": "iframe"
+    },
+        {
+      "name": "Super Monkey Ball 1 & 2",
+      "url": "https://truffled.lol/gamefile/monk.html",
+      "thumbnail": "https://truffled.lol/png/games/monkb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Monkey Ball JR",
+      "url": "https://truffled.lol/gamefile/supermonkey.html",
+      "thumbnail": "https://truffled.lol/png/games/supermonkey.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Smash Flash",
+      "url": "https://truffled.lol/gamefile/ssf.html",
+      "thumbnail": "https://truffled.lol/png/games/supersmash.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Super Smash Flash 2",
+      "url": "https://truffled.lol/gamefile/ssf2.html",
+      "thumbnail": "https://truffled.lol/png/games/ssf2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Survivor.io, Webport",
+      "url": "https://truffled.lol/gamefile/survivor.html",
+      "thumbnail": "https://truffled.lol/png/games/survivorio.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Taiko No Tatsujini",
+      "url": "/games/psp/tja/index.html",
+      "thumbnail": "https://truffled.lol/png/games/taiko.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tanuki Sunset",
+      "url": "/games/tanukisunset/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tanukisunset.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Tattle Tail, Webport",
+      "url": "/games/tattletail/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tat.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Ten Basket",
+      "url": "/games/ten-basket/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ten.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Terraria, Webport",
+      "url": "/games/terraria/terraria-wrapper.html",
+      "thumbnail": "https://truffled.lol/png/games/ter.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tetris",
+      "url": "/games/tetris/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tet.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tetrisweeper",
+      "url": "/games/tetrisweeper/",
+      "thumbnail": "https://truffled.lol/png/games/tetriss.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Binding Of Issac",
+      "url": "/games/binding-of-isaac/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tboi.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Binding Of Isaac Wrath Of The Lamb",
+      "url": "https://truffled.lol/gamefile/tboiw.html",
+      "thumbnail": "https://truffled.lol/png/games/tboiw.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Binding Of Isaac Wrath Of The Lamb: Eternal",
+      "url": "https://truffled.lol/gamefile/boilambeternal.html",
+      "thumbnail": "https://truffled.lol/png/games/boilambeternal.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Binding Of Issac: Rebirth, Webport",
+      "altNames": [
+        "The Binding Of Issac: Rebirth"
+      ],
+      "url": "/games/psp/tboir/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tboir.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Impossible Quiz",
+      "url": "/games/theimpossiblequiz/index.html",
+      "thumbnail": "https://truffled.lol/png/games/quiz.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "The Legend of Zelda Ocarina of Time",
+      "url": "https://truffled.lol/gamefile/tloz.html",
+      "thumbnail": "https://truffled.lol/png/games/tloz.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Thats Not My Neighbor, Webport",
+      "altNames": [
+        "Thats Not My Neighbor"
+      ],
+      "url": "https://truffled.lol/gamefile/thatsnot.html",
+      "thumbnail": "https://truffled.lol/png/games/thatsnot.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "There Is No Game",
+      "url": "/games/there-is-no-game/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ting.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Time Shooter 1",
+      "url": "https://truffled.lol/gamefile/time1.html",
+      "thumbnail": "https://truffled.lol/png/games/tim1.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Time Shooter 2",
+      "url": "/games/timeshooter2/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tim2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Time Shooter 3",
+      "url": "/games/timeshoot3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tim3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tiny Fishing",
+      "url": "/games/tiny-fishing/index.html",
+      "thumbnail": "png/games/tiny.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "To The Core, Webport",
+      "altNames": [
+        "To The Core"
+      ],
+      "url": "/games/tothecore/index.html",
+      "thumbnail": "https://truffled.lol/png/games/to.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tomb Of The Mask",
+      "url": "/games/tombofthemask/index.html",
+      "thumbnail": "https://truffled.lol/png/games/tomb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tomodachi Collection",
+      "url": "https://truffled.lol/gamefile/tomo.html",
+      "thumbnail": "https://truffled.lol/png/games/tomo.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Touhou Mother, Webport",
+      "altNames": [
+        "Touhou Mother"
+      ],
+      "url": "/games/touhoumother/index.html",
+      "thumbnail": "https://truffled.lol/png/games/touhou.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Tube Jumpers",
+      "url": "https://truffled.lol/gamefile/tube.html",
+      "thumbnail": "https://truffled.lol/png/games/tube.webp",
+      "frameType": "unity"  
+    },
+    {
+      "name": "Tung Tung Horror",
+      "url": "https://truffled.lol/gamefile/tung.html",
+      "thumbnail": "https://truffled.lol/png/games/tung.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Ultrakill, Webport",
+      "altNames": [
+        "Ultrakill"
+      ],
+      "url": "/games/ultrakill/ultrakill/index.html",
+      "thumbnail": "https://truffled.lol/png/games/ultra.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Ultrapool, Webport",
+      "altNames": [
+        "Ultrapool"
+      ],
+      "url": "https://truffled.lol/gamefile/ultrapool.html",
+      "thumbnail": "png/games/ultrapool.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Undertale, Webport",
+      "altNames": [
+        "Undertale"
+      ],
+      "url": "https://truffled.lol/gamefile/undertale.html",
+      "thumbnail": "https://truffled.lol/png/games/uertale.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Undertale Yellow, Webport",
+      "altNames": [
+        "Undertale Yellow"
+      ],
+      "url": "/games/uty/play.html",
+      "thumbnail": "https://truffled.lol/png/games/udy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Untitled Goose Game, Webport",
+      "altNames": [
+        "Untitled Goose Game"
+      ],
+      "url": "/games/UntitledGooseGameBog/index.html",
+      "thumbnail": "https://truffled.lol/png/games/untitled.webp",
+      "frameType": "unityframe"
+    },
+    {
+      "name": "Vampire Survivors, Webport",
+      "altNames": [
+        "Vampire Survivors"
+      ],
+      "url": "/games/vampire/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vampire.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex",
+      "url": "/games/vex/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vex.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 2",
+      "url": "https://truffled.lol/gamefile/vex2.html",
+      "thumbnail": "https://truffled.lol/png/games/vex2.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 3",
+      "url": "/games/vex3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vex3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 4",
+      "url": "/games/vex4/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vex4.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 5",
+      "url": "/games/vex5/index.html",
+      "thumbnail": "https://truffled.lol/png/games/vex5.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 6",
+      "url": "https://truffled.lol/gamefile/vex6.html",
+      "thumbnail": "https://truffled.lol/png/games/vex6.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 7",
+      "url": "https://truffled.lol/gamefile/vex7.html",
+      "thumbnail": "https://truffled.lol/png/games/vex7.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Vex 8",
+      "url": "https://truffled.lol/gamefile/vex8.html",
+      "thumbnail": "https://truffled.lol/png/games/vex8.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Volley Random",
+      "url": "/games/volley-random/index.html",
+      "thumbnail": "/games/volley-random/splash.png",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Warioware D.I.Y",
+      "url": "https://truffled.lol/gamefile/wariowarediy.html",
+      "thumbnail": "png/games/wariowarediy.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "We Become What We behold",
+      "url": "https://truffled.lol/gamefile/wbwwb.html",
+      "thumbnail": "png/games/wbwwb.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Webfishing, Webport",
+      "altNames": [
+        "Webfishing"
+      ],
+      "url": "/games/webfishing/",
+      "thumbnail": "https://truffled.lol/png/games/web.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Witch's Heart, Webport",
+      "altNames": [
+        "Witch's Heart"
+      ],
+      "url": "https://truffled.lol/gamefile/witches.html",
+      "thumbnail": "png/games/witches.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Wordle",
+      "url": "/games/wordle-unlimited/index.html",
+      "thumbnail": "https://truffled.lol/png/games/world.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Worlds Hardest Game",
+      "url": "https://truffled.lol/gamefile/twhg.html",
+      "thumbnail": "https://truffled.lol/png/games/wrdd.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Worlds Hardest Game 2",
+      "url": "/games/worlds-hardest-game-2/index.html",
+      "thumbnail": "/games/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Worlds Hardest Game 3",
+      "url": "/games/worlds-hardest-game-3/index.html",
+      "thumbnail": "https://truffled.lol/png/games/3.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Yandere Simulator, Webport",
+      "url": "https://truffled.lol/gamefile/yandere.html",
+      "thumbnail": "https://truffled.lol/png/games/yandere.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Yoked",
+      "url": "https://truffled.lol/gamefile/yoked.html",
+      "thumbnail": "https://truffled.lol/png/games/yoked.webp",
+      "frameType": "unity"
+    },
+    {
+      "name": "Your Only Move Is HUSTLE, YOMI Hustle, Webport",
+      "url": "/games/YOMIHustle/index.html",
+      "thumbnail": "https://truffled.lol/png/games/YOMI.webp",
+      "frameType": "iframe"
+    },
+    {
+      "name": "Yume Nikki, Webport",
+      "url": "https://truffled.lol/gamefile/yume.html",
+      "thumbnail": "https://truffled.lol/png/games/yumi.webp",
+      "frameType": "iframe"
+    },
+    {
+            "name": "1v1.LOL",
+              "url": "https://int-v3.bitbucket.io/play/1v1-lol/index.html",
+              "img": "https://int-v3.bitbucket.io/play/1v1-lol/1v1.jpg"
+          },
+          {
+              "name": "2048 ",
+              "url": "https://int-v3.bitbucket.io/play/2048/index.html",
+              "img": "https://int-v3.bitbucket.io/play/2048/2048.png"
+          },
+          {
+              "name": "2048 Cupcakes",
+              "url": "https://int-v3.bitbucket.io/play/2048-cupcakes/index.html",
+              "img": "https://int-v3.bitbucket.io/play/2048-cupcakes/2048-cupcakes.ico"
+          },
+          {
+              "name": "3D Tanks",
+              "url": "https://int-v3.bitbucket.io/play/flash/?swf=3dtanks.swf",
+              "img": "https://int-v3.bitbucket.io/media/src/3d-tanks.png"
+          },
+          {
+            "name": "Advance Wars",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#advancewars",
+            "img": "https://int-v3.bitbucket.io/media/src/advance-wars.png"
+          },
+          {
+            "name": "Advance Wars 2",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#advancewars2",
+            "img": "https://int-v3.bitbucket.io/media/src/advance-wars2.png"
+          },
+          {
+            "name": "Aladdin",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#aladdin",
+            "img": "https://int-v3.bitbucket.io/media/src/aladdin.jpeg"
+          },
+          {
+            "name": "Alien Hominid",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#alienhominid",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/alien-hominid.png"
+        },
+          {
+              "name": "Among Us ",
+              "url": "https://int-v3.bitbucket.io/play/among-us/index.html",
+              "img": "https://int-v3.bitbucket.io/play/among-us/among-us.png"
+          },
+          {
+            "name": "Agar.io",
+            "url": "https://int-v3.bitbucket.io/play/agar-io/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/agario.png"
+          },
+          {
+            "name": "Atari Anniversary",
+            "url": "play/emulator/gba/launcher.html#atari",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/3.png"
+          },
+          {
+            "name": "Bacon May Die",
+            "url": "https://int-v3.bitbucket.io/play/bacon-may-die/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/bacon-may-die.avif"
+          },
+          {
+              "name": "Banana Bread",
+              "url": "https://int-v3.bitbucket.io/play/banana/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/not-found.jpg"
+          },
+          {
+              "name": "Basket Bros",
+              "url": "https://int-v3.bitbucket.io/play/basket-bros/index.html",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/basket-bros.png"
+          },
+          {
+              "name": "Basketball Stars",
+              "url": "https://int-v3.bitbucket.io/play/basketball-stars/index.html",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/basket-bros.png"
+          },
+          {
+            "name": "Big Tower",
+            "url": "https://int-v3.bitbucket.io/play/big-tower/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/btts.avif"
+          },
+          {
+              "name": "Biters.io",
+              "url": "https://int-v3.bitbucket.io/play/biters-io/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/biters.png"
+          },
+          {
+              "name": "Blockpost",
+              "url": "https://int-v3.bitbucket.io/play/blockpost/index.html",
+              "img": "https://int-v3.bitbucket.io/play/blockpost/blockpost.png"
+          },
+          {
+              "name": "BTD 1",
+              "url": "https://int-v3.bitbucket.io/play/flash/?swf=bloonstd1.swf",
+              "img": "https://int-v3.bitbucket.io/media/src/btd1.jpg"
+          },
+          {
+              "name": "BTD 2",
+              "url": "https://int-v3.bitbucket.io/play/flash/waflash/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/btd2.jpg"
+          },
+          {
+              "name": "BTD 4",
+              "url": "https://int-v3.bitbucket.io/play/flash/gfiles/btd4/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/btd4.jpg"
+          },
+          {
+            "name": "BTD 6 - Scratch ",
+            "url": "https://int-v3.bitbucket.io/play/btd-6/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/btd6.png"
+          },
+          {
+            "name": "Bomberman Max 2",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#bomberman_max2blue",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/4.png"
+          },
+          {
+            "name": "Bomberman Tournament",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#bomberman_tournament",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/5.png"
+          },
+          {
+            "name": "Bubble Bobble",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#bubblebobble",
+            "img": "assets/img/icons/6.png"
+          },
+          {
+              "name": "Cannon Basketball 4",
+              "url": "https://int-v3.bitbucket.io/play/cannon-basketball-4/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cannon-basketball-4/basketball.png"
+          },
+          {
+              "name": "Chrome Dino",
+              "url": "https://int-v3.bitbucket.io/play/chrome-dinosaur-game/index.html",
+              "img": "https://int-v3.bitbucket.io/play/chrome-dinosaur-game/dino.png"
+          },
+          {
+              "name": "Cluster Truck",
+              "url": "https://int-v3.bitbucket.io/play/cluster-rush/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cluster-rush/truck.png"
+          },
+          {
+
+            "name": "Coolmath Games",
+            "url": "https://m-edit.coolmath-games.com/",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/coolmath.png"
+          },
+          {
+            "name": "Connect 4",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#cfpt",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/7.png"
+          },
+          {
+              "name": "Cookie Clicker",
+              "url": "https://int-v3.bitbucket.io/play/cookie-clicker/2021/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cookie-clicker/cookies.png"
+          },
+          {
+              "name": "Cubefield",
+              "url": "https://int-v3.bitbucket.io/play/cubefield/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cubefield/cube.jpg"
+          },
+          {
+            "name": "Crash Bandicoot",
+            "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#cbha",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/8.png"
+          },
+          {
+              "name": "Cut The Rope",
+              "url": "https://int-v3.bitbucket.io/play/cut-the-rope/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cut-the-rope/rope.png"
+          },
+          {
+              "name": "CTR Holiday Gift",
+              "url": "https://int-v3.bitbucket.io/play/cut-the-rope/holiday-gift/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cut-the-rope/holiday-gift/holiday.png"
+          },
+          {
+              "name": "CTR Time Travel",
+              "url": "https://int-v3.bitbucket.io/play/cut-the-rope/time-travel/index.html",
+              "img": "https://int-v3.bitbucket.io/play/cut-the-rope/time-travel/time.png"
+          },
+          {
+              "name": "Defend The Tank",
+              "url": "https://int-v3.bitbucket.io/play/defend-the-tank/index.html",
+              "img": "https://int-v3.bitbucket.io/play/defend-the-tank/tank.jpg"
+          },
+          {
+              "name": "Doodle Jump",
+              "url": "https://int-v3.bitbucket.io/play/dooodle-jump/index.html",
+              "img": "https://int-v3.bitbucket.io/play/doodle-jump/jump.png"
+          }, 
+          {
+            "name": "Doom 1",
+            "url": "https://int-v3.bitbucket.io/play/emu/launcher.html#dm",
+            "img": "https://int-v3.bitbucket.io/media/src/doom1.png"
+          },
+          {
+            "name": "Doom 2",
+            "url": "https://int-v3.bitbucket.io/play/emu/launcher.html#dm2",
+            "img": "https://int-v3.bitbucket.io/media/src/doom2.png"
+          },
+          {
+              "name": "Doge Miner",
+              "url": "https://int-v3.bitbucket.io/play/doge-miner/index.html",
+              "img": "https://int-v3.bitbucket.io/play/doge-miner/doge.png"
+          },
+          {
+            "name": "Drift Boss",
+            "url": "https://int-v3.bitbucket.io/play/drift-boss/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/drift-boss.png"
+          },    
+          {
+              "name": "Drift Hunters",
+              "url": "https://int-v3.bitbucket.io/play/drift-hunters/index.html",
+              "img": "https://int-v3.bitbucket.io/play/drift-hunters/drift.png"
+          },
+          {
+              "name": "Duck Life 1",
+              "url": "https://int-v3.bitbucket.io/play/ducklife/index.html",
+              "img": "https://int-v3.bitbucket.io/play/ducklife/ducklife.png"
+          },
+          {
+              "name": "Duck Life 2",
+              "url": "https://int-v3.bitbucket.io/play/ducklife2/index.html",
+              "img": "https://int-v3.bitbucket.io/play/ducklife2/ducklife2.png"
+          },
+          {
+              "name": "Duck Life 3",
+              "url": "https://int-v3.bitbucket.io/play/ducklife3/index.html",
+              "img": "https://int-v3.bitbucket.io/play/ducklife3/ducklife3.png"
+          },
+          {
+              "name": "Duck Life 4",
+              "url": "https://int-v3.bitbucket.io/play/ducklife4/index.html",
+              "img": "https://int-v3.bitbucket.io/play/ducklife4/ducklife4.png"
+          },
+          {
+              "name": "Eaglercraft",
+              "url": "https://int-v3.bitbucket.io/play/minecraft/index.html",
+              "img": "https://int-v3.bitbucket.io/play/minecraft/mc.png"
+          },
+          {
+            "name": "Edge Not Found",
+            "url": "https://int-v3.bitbucket.io/play/edge-not-found/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/not-found.png"
+          },
+          {
+              "name": "Eliatopia",
+              "url": "https://int-v3.bitbucket.io/play/eliatopia/index.html",
+              "img": "https://int-v3.bitbucket.io/play/eliatopia/eliatopia.png"
+          },
+          {
+            "name": "Fancy Pants 3",
+            "url": "https://int-v3.bitbucket.io/play/fancy-pants-adventure-3/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/fancypantsadventure3.png"
+          },
+          {
+              "name": "Flash Player",
+              "url": "https://int-v3.bitbucket.io/play/flash/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/flash2.jpg"
+          },
+          {
+              "name": "Flappy 2048",
+              "url": "https://int-v3.bitbucket.io/play/flappy-2048/index.html",
+              "img": "https://int-v3.bitbucket.io/play/flappy-2048/flappy2048.png"
+          },
+          {
+              "name": "Flappy Bird",
+              "url": "https://int-v3.bitbucket.io/play/flappybird/index.html",
+              "img": "https://int-v3.bitbucket.io/play/flappybird/bird.png"
+          },
+          {
+              "name": "FNAF WEB",
+              "url": "https://int-v3.bitbucket.io/play/fnaf-web/index.html",
+              "img": "https://int-v3.bitbucket.io/play/fnaf-web/fnaf.jpg"
+          },
+          {
+              "name": "Forest Temple",
+              "url": "https://int-v3.bitbucket.io/play/fireboy-and-watergirl-forest-temple/index.html",
+              "img": "https://int-v3.bitbucket.io/play/fireboy-and-watergirl-forest-temple/temple.png"
+          },
+          {
+            "name": "Fortnite",
+            "url": "https://int-v3.bitbucket.io/assets/tutorials/geforce-now/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/11.png"
+          },
+          {
+            "name": "Gangster Man 3D",
+            "url": "https://int-v3.bitbucket.io/play/gangster-man-3d/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/not-found.png"
+          },
+          {
+            "name": "Gun Mayhem 2",
+            "url": "https://int-v3.bitbucket.io/play/flash/waflash/gun-mayhem-2/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/not-found.png"
+          },
+          {
+              "name": "Geometry Dash",
+              "url": "https://int-v3.bitbucket.io/play/geometry/index.html",
+              "img": "https://int-v3.bitbucket.io/play/geometry/dash.png"
+          },
+          {
+            "name": "Geometry Dash: SZ",
+            "url": "https://int-v3.bitbucket.io/play/geometry-dash-subzero/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/subzero.png"
+          },
+          {
+              "name": "Getaway Shootout",
+              "url": "https://int-v3.bitbucket.io/play/getaway-shootout/index.html",
+              "img": "https://int-v3.bitbucket.io/play/getaway-shootout/getaway.avif"
+          },
+          {
+              "name": "Gopher Kart",
+              "url": "https://int-v3.bitbucket.io/play/gopher-kart/index.html",
+              "img": "https://int-v3.bitbucket.io/play/gopher-kart/kart.png"
+          },
+          {
+            "name": "Grand Action Sim",
+            "url": "https://int-v3.bitbucket.io/play/grand-action-simulator/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/10.png"
+          },
+          {
+              "name": "Grind Craft",
+              "url": "https://int-v3.bitbucket.io/play/grindcraft/index.html",
+              "img": "https://int-v3.bitbucket.io/play/grindcraft/grindcraft.webp"
+          },
+          {
+            "name": "Highway Traffic Sim",
+            "url": "https://int-v3.bitbucket.io/play/highway-traffic-simulator/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/highway-traffic-simulator.png"
+          },
+          {
+            "name": "Happy Wheels",
+            "url": "https://int-v3.bitbucket.io/play/happy-wheels/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/images/happy-wheels.png"
+          },
+          {
+              "name": "Hex GL",
+              "url": "https://int-v3.bitbucket.io/play/hex-gl/index.html",
+              "img": "https://int-v3.bitbucket.io/play/hex-gl/hex.jpg"
+          },
+          {
+              "name": "Hextris",
+              "url": "https://int-v3.bitbucket.io/play/hextris/index.html",
+              "img": "https://int-v3.bitbucket.io/play/hextris/hextris.png"
+          },
+          {
+              "name": "Idle Breakout",
+              "url": "https://int-v3.bitbucket.io/play/idle-breakout/index.html",
+              "img": "https://int-v3.bitbucket.io/play/idle-breakout/idle.png"
+          },
+          {
+            "name": "James Bond 007",
+              "url": "https://int-v3.bitbucket.io/play/emu/gba/launcher.html#007",
+              "img": "https://int-v3.bitbucket.io/media/src/bond.webp"
+          },
+          {
+              "name": "Justfall.LOL",
+              "url": "https://int-v3.bitbucket.io/play/justfall-lol/index.html",
+              "img": "https://int-v3.bitbucket.io/play/justfall-lol/justfall.jpg"
+          },
+          {
+              "name": "Google Snake",
+              "url": "https://int-v3.bitbucket.io/play/snake-google/index.html",
+              "img": "https://int-v3.bitbucket.io/play/snake-google/img/icon.png"
+          },
+          {
+              "name": "Krunker.io",
+              "url": "https://int-v3.bitbucket.io/play/krunker/index.html",
+              "img": "https://int-v3.bitbucket.io/play/krunker/krunker.jpg"
+          },
+          {
+              "name": "Minecraft",
+              "url": "https://int-v3.bitbucket.io/play/minecraft-classic/index.html",
+              "img": "https://int-v3.bitbucket.io/play/minecraft/mc.png"
+          },
+          {
+            "name": "Madalin Stunt Cars 3",
+            "url":  "https://int-v3.bitbucket.io/play/madalin-stunt-cars-3/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/madalin-stunt-cars-3.avif"
+          },
+          {
+              "name": "Moto X3M",
+              "url": "https://int-v3.bitbucket.io/play/motox3m/index.html",
+              "img": "https://int-v3.bitbucket.io/play/motox3m/x3m.avif"
+          },
+          {
+              "name": "MX3M: Pool Party",
+              "url": "https://int-v3.bitbucket.io/play/motox3m-pool/index.html",
+              "img": "https://int-v3.bitbucket.io/play/motox3m-pool/pool.avif"
+          },
+          {
+              "name": "MX3M: Spooky Land",
+              "url": "https://int-v3.bitbucket.io/play/motox3m-spooky/index.html",
+              "img": "https://int-v3.bitbucket.io/play/motox3m-spooky/spooky.avif"
+          },
+          {
+              "name": "MX3M: Winter",
+              "url": "https://int-v3.bitbucket.io/play/motox3m-winter/index.html",
+              "img": "https://int-v3.bitbucket.io/play/motox3m-winter/winter.avif"
+          },
+          {
+              "name": "N64 Emulator",
+              "url": "https://int-v3.bitbucket.io/play/emu/n64/emulator/dist/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/n64.png"
+          },
+          {
+              "name": "N-Gon",
+              "url": "https://int-v3.bitbucket.io/play/n-gon/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/n-gon.png"
+          },
+          {
+              "name": "NG Space Company",
+              "url": "https://int-v3.bitbucket.io/play/ng-space-company/frontend/dist/index.html",
+              "img": "https://int-v3.bitbucket.io/play/ng-space-company/ng.webp"
+          },
+          {
+              "name": "Online Racing Game!",
+              "url": "https://int-v3.bitbucket.io/play/online-racing-game/index.html",
+              "img": "https://int-v3.bitbucket.io/play/online-racing-game/favicons/android-chrome-512x512.png"
+          },
+          {
+            "name": "OvO",
+            "url": "https://int-v3.bitbucket.io/play/ovo/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/ovo.png"
+          },
+          {
+              "name": "Pacman",
+              "url": "https://int-v3.bitbucket.io/play/pacman/index.html",
+              "img": "https://int-v3.bitbucket.io/play/pacman/pacman.webp"
+          },
+          {
+             "name": "Papa's Bakeria",
+             "url": "https://int-v3.bitbucket.io/play/papas-bakeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/bakeria.jpg"
+          }, 
+          {
+             "name": "Papa's Burgeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-burgeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/burgeria.jpg"
+          }, 
+          {
+             "name": "Papa's Cheeseria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-cheeseria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/cheeseria.jpg"
+          },
+          {
+             "name": "Papa's Cupcakeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-cupcakeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/cupcakeria.jpg"
+          },
+          {
+             "name": "Papa's Donuteria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-donuteria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/donuteria.jpg"
+          },
+          {
+             "name": "Papa's Freezeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-freezeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/freezeria.jpg"
+          },
+          {
+             "name": "Papa's Hot Doggeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-hotdoggeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/hotdoggeria.jpg"
+          },
+          {
+             "name": "Papa's Pancakeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-pancakeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/pancakeria.jpg"
+          }, 
+          {
+             "name": "Papa's Pastaria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-pastaria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/pastaria.jpg"
+          },                   
+          {
+             "name": "Papa's Pizzeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-pizzeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/pizzeria.avif"
+          },
+          {
+             "name": "Papa's Scooperia",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-scooperia/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/scooperia.jpg"
+          },
+          {
+             "name": "Papa's Sushiria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-sushiria/index.html",
+             "img": "media/src/sushiria.jpg"
+          },  
+          {
+             "name": "Papa's Taco Mia",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-taco-mia/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/tacomia.jpg"
+          },
+          {
+             "name": "Papa's Wingeria",
+             "url": "https://int-v3.bitbucket.io/play/flash/waflash/papas-wingeria/index.html",
+             "img": "https://int-v3.bitbucket.io/media/src/wingeria.jpg"
+          },                
+          {
+              "name": "Paper.io 2 ",
+              "url": "https://int-v3.bitbucket.io/play/paperio2/index.html",
+              "img": "https://int-v3.bitbucket.io/play/paperio2/paperio2.jpg"
+          },
+          {
+              "name": "Particle Clicker ",
+              "url": "https://int-v3.bitbucket.io/play/particle-clicker/index.html",
+              "img": "https://int-v3.bitbucket.io/play/particle-clicker/particle.png"
+          },
+          {
+              "name": "Pixel Combat 2 ",
+              "url": "https://int-v3.bitbucket.io/play/pixel-combat-2/index.html",
+              "img": "https://int-v3.bitbucket.io/play/pixel-combat-2/2.jpg"
+          },
+          {
+              "name": "Precision Client",
+              "url": "https://int-v3.bitbucket.io/play/precision-client/index.html",
+              "img": "https://int-v3.bitbucket.io/play/precision-client/bow.png"
+          },
+          {
+              "name": "Radius Raid",
+              "url": "https://int-v3.bitbucket.io/play/radius-raid/index.html",
+              "img": "https://int-v3.bitbucket.io/play/radius-raid/radius.png"
+          },
+          {
+              "name": "Retro Arch",
+              "url": "https://int-v3.bitbucket.io/play/emu/web-retro/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/retroarch.png"
+          },
+          {
+              "name": "Retro Bowl",
+              "url": "https://int-v3.bitbucket.io/play/retro-bowl/index.html",
+              "img": "https://int-v3.bitbucket.io/play/retro-bowl/retro.png"
+          },
+          {
+            "name": "Rocket League",
+            "url": "https://int-v3.bitbucket.io/assets/tutorials/geforce-now/index.html",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/12.jpg"
+          },
+          {
+              "name": "Rooftop Snipers",
+              "url": "https://int-v3.bitbucket.io/play/rooftop-snipers/index.html",
+              "img": "https://int-v3.bitbucket.io/play/rooftop-snipers/rooftop.avif"
+          },
+          {
+              "name": "Run 3",
+              "url": "https://int-v3.bitbucket.io/play/run3/index.html",
+              "img": "https://int-v3.bitbucket.io/play/run3/run3.avif"
+          },
+          {
+              "name": "Slope",
+              "url": "https://int-v3.bitbucket.io/play/slope/index.html",
+              "img": "https://int-v3.bitbucket.io/play/slope/slope.jpg"
+          },
+          {
+              "name": "Slope Cyber",
+              "url": "https://int-v3.bitbucket.io/play/slope-cyber/index.html",
+              "img": "https://int-v3.bitbucket.io/play/slope-cyber/cyber.png"
+          },
+          {
+              "name": "Super Mario 64",
+              "url": "https://int-v3.bitbucket.io/play/sm64/index.html",
+              "img": "https://int-v3.bitbucket.io/play/sm64/mario.jpg"
+          },
+          {
+              "name": "Smash Karts",
+              "url": "https://int-v3.bitbucket.io/play/smash-karts/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/smashkarts.png"
+          },
+          {
+              "name": "Space Company",
+              "url": "https://int-v3.bitbucket.io/play/space-company/index.html",
+              "img": "https://int-v3.bitbucket.io/play/space-company/space.webp"
+          },
+          {
+              "name": "Space Invaders",
+              "url": "https://int-v3.bitbucket.io/play/spaceinvaders/index.html",
+              "img": "https://int-v3.bitbucket.io/play/spaceinvaders/invaders.png"
+          },
+          {
+              "name": "Stack Bump 3D",
+              "url": "https://int-v3.bitbucket.io/play/stack-bump-3d/index.html",
+              "img": "https://int-v3.bitbucket.io/play/stack-bump-3d/3d.jpg"
+          },
+          {
+              "name": "Stickman Hook",
+              "url": "https://int-v3.bitbucket.io/play/stickmanhook/index.html",
+              "img": "https://int-v3.bitbucket.io/play/stickmanhook/stickman.png"
+          },
+          {
+              "name": "Subway Surfers",
+              "url": "https://int-v3.bitbucket.io/play/subway-surfers-houston/index.html",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/houston.jpg"
+          },
+          {            
+              "name": "Subway Surfers",
+              "url": "https://int-v3.bitbucket.io/play/subway-surfers-zurich/index.html",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/zurich.jpg"
+          },
+          {
+            "name": "Sugar Sugar 1",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=sugarsugar.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/sugarsugar.png"
+          },
+          {
+            "name": "Sugar Sugar 2",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=sugarsugar2.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/sugarsugar2.png"
+          },
+          {
+            "name": "Sugar Sugar 3",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=sugarsugar3.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/sugarsugar3.png"
+          },
+          {
+            "name": "Tanks - Flash",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=tanks.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/tanks.png"
+          },
+          {
+            "name": "The Binding of Isaac",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=thebindingofisaac.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/thebindingofisaac.png"
+          },
+          {
+             "name": "There Is No Game",
+              "url": "https://int-v3.bitbucket.io/play/there-is-no-game/index.html",
+              "img": "https://int-v3.bitbucket.io/play/there-is-no-game/game.png"
+          },
+          {
+              "name": "Vex 3",
+              "url": "https://int-v3.bitbucket.io/play/vex-3/index.html",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/vex3.jpg"
+          },
+          {
+              "name": "Vex 3 - Flash",
+              "url": "https://int-v3.bitbucket.io/play/flash/?swf=vex3.swf",
+              "img": "https://int-v3.bitbucket.io/assets/img/icons/vex3.jpg"
+          },
+          {
+              "name": "Vex 4",
+              "url": "https://int-v3.bitbucket.io/play/vex-4/index.html",
+              "img": "https://int-v3.bitbucket.io/play/vex-4/vex4.webp"
+          },
+          {
+              "name": "Vex 5",
+              "url": "https://int-v3.bitbucket.io/play/vex-5/index.html",
+              "img": "https://int-v3.bitbucket.io/play/vex-5/vex5.jpg"
+          },
+          {
+              "name": "Vex 6",
+              "url": "https://int-v3.bitbucket.io/play/vex6/index.html",
+              "img": "https://int-v3.bitbucket.io/play/vex6/vex6.jpg"
+          },
+          {
+              "name": "Whack Your Boss",
+              "url": "https://int-v3.bitbucket.io/play/flash/waflash/whack-your-boss/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/1.jpg"
+          },
+          {
+            "name": "Whack Your Ex",
+              "url": "https://int-v3.bitbucket.io/play/flash/waflash/whack-your-ex/index.html",
+              "img": "https://int-v3.bitbucket.io/media/src/2.png"
+          },
+          {
+            "name": "Xenos",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=xenos.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/not-found.png"
+          },
+          {
+            "name": "Year of the Snake",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=yearofthesnake.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/year-of-the-snake.webp"
+          }, 
+          {
+            "name": "Zombie Alien Parasite",
+            "url": "https://int-v3.bitbucket.io/play/flash/?swf=zombiealienparasites.swf",
+            "img": "https://int-v3.bitbucket.io/assets/img/icons/not-found.png"
+          },
+          {
+            "name": "Zombotron 1",
+            "url": "https://int-v3.bitbucket.io/play/zombotron/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/zombotron.png"
+          },  
+          {
+            "name": "Zombotron 2",
+            "url": "https://int-v3.bitbucket.io/play/zombroton-2/index.html",
+            "img": "https://int-v3.bitbucket.io/media/src/zombotron-2.png"
+          }
+
+        ]
     }
-  ]
-}

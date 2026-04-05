@@ -4,7 +4,6 @@ import { hostname } from "node:os";
 import { server as wisp, logging } from "@mercuryworkshop/wisp-js/server";
 import Fastify from "fastify";
 import fastifyStatic from "@fastify/static";
-
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
 import { libcurlPath } from "@mercuryworkshop/libcurl-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
@@ -12,6 +11,10 @@ import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
 const publicPath = fileURLToPath(new URL("/", import.meta.url));
 
 // Wisp Configuration: Refer to the documentation at https://www.npmjs.com/package/@mercuryworkshop/wisp-js
+
+const rootDir = path.join(__dirname, "..");
+const express = require("express");
+const path = require("path");
 
 logging.set_level(logging.NONE);
 Object.assign(wisp.options, {
@@ -93,4 +96,9 @@ if (isNaN(port)) port = 8081;
 fastify.listen({
 	port: port,
 	host: "0.0.0.0",
+});
+
+app.use(express.static(path.join(rootDir, "public")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(rootDir, "public", "index.html"));
 });

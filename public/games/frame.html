@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Truffled</title>
+    <title>Flux</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    <script src="/scram/scramjet.all.js"></script>
+    <script src="/baremux/index.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -96,33 +98,79 @@
         var url = getUrlParameter('url');
         var loadedUrl = '';
         var useSrcdoc = false;
-        if (url) {
+        var proxyFrame = null;
+        var iframe = document.getElementById('gameframe');
+        var frameContainer = document.querySelector('.iframe-container');
+        var persistentTitle = getUrlParameter('title') || 'Flux';
+
+        function setPageTitle() {
+            document.title = persistentTitle;
+            var titleElement = document.querySelector('title');
+            if (titleElement) titleElement.textContent = persistentTitle;
+        }
+
+        // Keep title persistent
+        setInterval(setPageTitle, 1000);
+
+        async function initGameFrame() {
+            setPageTitle();
+            if (!url) return;
+
+            loadedUrl = url;
+
             if (url.includes('cdn.jsdelivr.net')) {
-                loadedUrl = url;
                 useSrcdoc = true;
-                fetch(url)
-                    .then(function(r) { return r.text(); })
-                    .then(function(html) {
-                        document.getElementById('gameframe').srcdoc = html;
-                    })
-                    .catch(function() {
-                        useSrcdoc = false;
-                        document.getElementById('gameframe').src = '/404.html?q=' + encodeURIComponent(url);
-                    });
-            } else {
-                loadedUrl = url;
-                document.getElementById('gameframe').src = url;
+                try {
+                    var response = await fetch(url);
+                    var html = await response.text();
+                    iframe.srcdoc = html;
+                    return;
+                } catch (e) {
+                    useSrcdoc = false;
+                    iframe.src = '/404.html?q=' + encodeURIComponent(url);
+                    return;
+                }
+            }
+
+            try {
+                var scramjet = new ScramjetController({
+                    files: {
+                        wasm: '/scram/scramjet.wasm.wasm',
+                        all: '/scram/scramjet.all.js',
+                        sync: '/scram/scramjet.sync.js',
+                    },
+                });
+                scramjet.init();
+
+                var connection = new BareMux.BareMuxConnection('/baremux/worker.js');
+                var wispUrl = (location.protocol === 'https:' ? 'wss' : 'ws') + '://' + location.host + '/wisp/';
+                if ((await connection.getTransport()) !== '/libcurl/index.mjs') {
+                    await connection.setTransport('/libcurl/index.mjs', [
+                        { websocket: wispUrl },
+                    ]);
+                }
+
+                proxyFrame = scramjet.createFrame();
+                proxyFrame.frame.id = 'gameframe';
+                proxyFrame.frame.className = 'gameframe';
+                frameContainer.replaceChild(proxyFrame.frame, iframe);
+                iframe = proxyFrame.frame;
+                proxyFrame.go(url);
+            } catch (e) {
+                console.warn('Proxy failed, falling back to direct iframe:', e);
+                iframe.src = url;
             }
         }
 
         document.getElementById('fullscreen').addEventListener('click', function () {
-            var iframe = document.getElementById('gameframe');
-            (iframe.requestFullscreen || iframe.mozRequestFullScreen || iframe.webkitRequestFullscreen || iframe.msRequestFullscreen || function(){}).call(iframe);
+            var activeFrame = document.getElementById('gameframe');
+            (activeFrame.requestFullscreen || activeFrame.mozRequestFullScreen || activeFrame.webkitRequestFullscreen || activeFrame.msRequestFullscreen || function(){}).call(activeFrame);
         });
 
         document.getElementById('reloadbtn').addEventListener('click', function () {
-            var iframe = document.getElementById('gameframe');
-            if (useSrcdoc && loadedUrl) {
+            if (proxyFrame && loadedUrl) {
+                proxyFrame.go(loadedUrl);
+            } else if (useSrcdoc && loadedUrl) {
                 fetch(loadedUrl)
                     .then(function(r) { return r.text(); })
                     .then(function(html) { iframe.srcdoc = html; });
@@ -158,6 +206,8 @@
             }
         });
 
+        initGameFrame();
+
         // about:blank popup
         document.getElementById('aboutblank').addEventListener('click', function () {
             var win = window.open();
@@ -175,6 +225,12 @@
             win.document.body.appendChild(iframe);
             win.document.title = 'New Tab';
         });
+    </script>
+    <script>
+        // Register service worker for Scramjet proxying
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').catch(err => console.warn('SW registration failed:', err));
+        }
     </script>
     <script src="/js/file.js" defer></script>
 </body>

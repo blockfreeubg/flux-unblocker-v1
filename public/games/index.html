@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 <link rel="stylesheet" href="../index.css">
+<script src="/scram/scramjet.all.js"></script>
+<script src="/baremux/index.js"></script>
 <script src="theme.js"></script>
 <style>
 
@@ -245,7 +247,9 @@ filter: drop-shadow(0 0 8px rgba(255,255,255,0.6));
     const grid = document.getElementById('grid');
     document.getElementById('count').textContent = games.length + ' games';
     grid.innerHTML = games.map(g => {
-      const href = 'frame.html?url=' + encodeURIComponent(g.url);
+      const href =
+        'frame.html?url=' + encodeURIComponent(g.url) +
+        '&title=' + encodeURIComponent('Flux | ' + g.name);
       const active = isFav(g.name) ? ' active' : '';
       const fav = isFav(g.name);
       return `<a class="card" href="${href}">

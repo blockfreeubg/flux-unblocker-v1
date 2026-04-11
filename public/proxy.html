@@ -12,156 +12,155 @@
  
     <link rel="stylesheet" href="index.css" />
     <script src="register-sw.js" defer></script>
-    <script src="search.js" defer></script>
-    <script src="index.js" defer></script>
  
     <style>
       #dynamic-island {
         position: fixed;
         top: 12px;
         left: 50%;
-        transform: translateX(-50%) scale(0.5);
-        background: #1a1a1a;
-        border-radius: 50px;
+        transform: translateX(-50%) scale(0.4);
+        background: #111;
+        border-radius: 999px;
         display: flex;
         align-items: center;
-        padding: 0;
-        width: 48px;
-        height: 34px;
+        width: 44px;
+        height: 32px;
         overflow: hidden;
         opacity: 0;
         pointer-events: none;
-        z-index: 9999;
-        box-shadow: 0 0 0 1.5px rgba(255,255,255,0.1), 0 8px 32px rgba(0,0,0,0.7);
+        z-index: 99999;
+        box-shadow: 0 0 0 1.5px rgba(255,255,255,0.08), 0 8px 40px rgba(0,0,0,0.8);
         transition:
-          width 0.45s cubic-bezier(0.34, 1.26, 0.64, 1),
-          height 0.45s cubic-bezier(0.34, 1.26, 0.64, 1),
-          border-radius 0.45s cubic-bezier(0.34, 1.26, 0.64, 1),
-          transform 0.45s cubic-bezier(0.34, 1.26, 0.64, 1),
-          opacity 0.2s ease,
-          padding 0.35s ease;
+          width 0.42s cubic-bezier(0.34,1.3,0.64,1),
+          height 0.42s cubic-bezier(0.34,1.3,0.64,1),
+          border-radius 0.42s cubic-bezier(0.34,1.3,0.64,1),
+          transform 0.42s cubic-bezier(0.34,1.3,0.64,1),
+          opacity 0.18s ease,
+          padding 0.3s ease;
       }
       #dynamic-island.open {
-        width: min(560px, 92vw);
-        height: 52px;
-        border-radius: 30px;
+        width: min(580px, 93vw);
+        height: 50px;
+        border-radius: 28px;
         padding: 0 10px 0 12px;
         opacity: 1;
         pointer-events: all;
         transform: translateX(-50%) scale(1);
       }
- 
-      #island-content {
+      #island-inner {
         display: flex;
         align-items: center;
         width: 100%;
         gap: 2px;
         opacity: 0;
-        transition: opacity 0.15s ease 0.28s;
+        transition: opacity 0.12s ease 0.26s;
+        min-width: 0;
       }
-      #dynamic-island.open #island-content {
-        opacity: 1;
-      }
+      #dynamic-island.open #island-inner { opacity: 1; }
  
-      .island-btn {
+      .ibtn {
         background: none;
         border: none;
         cursor: pointer;
-        color: rgba(255,255,255,0.7);
-        padding: 6px 7px;
-        border-radius: 10px;
+        color: rgba(255,255,255,0.65);
+        width: 32px;
+        height: 32px;
+        border-radius: 9px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
-        transition: background 0.15s, color 0.15s;
+        transition: background 0.12s, color 0.12s;
+        padding: 0;
       }
-      .island-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
-      .island-btn:active { background: rgba(255,255,255,0.18); }
-      .island-btn:disabled { opacity: 0.22; cursor: default; pointer-events: none; }
-      .island-btn svg {
-        width: 16px; height: 16px;
-        fill: none; stroke: currentColor;
-        stroke-width: 2.2;
-        stroke-linecap: round; stroke-linejoin: round;
+      .ibtn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+      .ibtn:active { background: rgba(255,255,255,0.17); transform: scale(0.94); }
+      .ibtn:disabled { opacity: 0.2; pointer-events: none; }
+      .ibtn svg {
+        width: 15px; height: 15px;
+        stroke: currentColor; fill: none;
+        stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
       }
- 
-      .island-divider {
-        width: 1px; height: 20px;
-        background: rgba(255,255,255,0.12);
+      .idiv {
+        width: 1px; height: 18px;
+        background: rgba(255,255,255,0.1);
         margin: 0 3px;
         flex-shrink: 0;
       }
-		
-      #sj-address.in-island {
-        flex: 1;
-        background: rgba(255,255,255,0.09) !important;
-        border: 1px solid rgba(255,255,255,0.13) !important;
-        border-radius: 20px !important;
-        color: #fff !important;
+ 
+      #sj-address.island-mode {
+        flex: 1 !important;
+        min-width: 0 !important;
+        margin: 0 6px !important;
+        height: 32px !important;
+        padding: 0 13px !important;
         font-size: 13px !important;
-        padding: 5px 14px !important;
-        height: 34px !important;
-        min-width: 0;
-        margin: 0 5px;
-        outline: none;
-        transition: background 0.2s, border-color 0.2s;
+        border-radius: 18px !important;
+        background: rgba(255,255,255,0.08) !important;
+        border: 1px solid rgba(255,255,255,0.12) !important;
+        color: #fff !important;
+        outline: none !important;
+        box-shadow: none !important;
       }
-      #sj-address.in-island:focus {
-        background: rgba(255,255,255,0.14) !important;
-        border-color: rgba(255,255,255,0.28) !important;
+      #sj-address.island-mode:focus {
+        background: rgba(255,255,255,0.13) !important;
+        border-color: rgba(255,255,255,0.26) !important;
       }
-      #sj-address.in-island::placeholder { color: rgba(255,255,255,0.35); }
+      #sj-address.island-mode::placeholder { color: rgba(255,255,255,0.3) !important; }
  
-      #island-close {
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: rgba(255,255,255,0.45);
-        font-size: 17px;
-        line-height: 1;
-        padding: 6px 7px;
-        border-radius: 10px;
-        flex-shrink: 0;
-        transition: background 0.15s, color 0.15s;
+      #i-close {
+        background: none; border: none; cursor: pointer;
+        color: rgba(255,255,255,0.4); font-size: 15px;
+        width: 28px; height: 28px; border-radius: 8px;
+        display: flex; align-items: center; justify-content: center;
+        flex-shrink: 0; transition: background 0.12s, color 0.12s;
       }
-      #island-close:hover { background: rgba(255,255,255,0.1); color: #fff; }
+      #i-close:hover { background: rgba(255,255,255,0.1); color: #fff; }
  
-      #reload-spin { display: inline-block; transition: transform 0.45s ease; }
+      #sj-frame-container {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 9998;
+        background: #fff;
+      }
+      #sj-frame-container.visible { display: block; }
+      #sj-frame { width: 100%; height: 100%; border: none; }
     </style>
   </head>
   <body>
-
+ 
     <div id="dynamic-island">
-      <div id="island-content">
-        <button class="island-btn" id="btn-back" disabled title="Go back">
+      <div id="island-inner">
+        <button class="ibtn" id="i-back" disabled title="Back">
           <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
         </button>
-        <button class="island-btn" id="btn-forward" disabled title="Go forward">
+        <button class="ibtn" id="i-forward" disabled title="Forward">
           <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
-        <button class="island-btn" id="btn-reload" title="Reload">
-          <svg viewBox="0 0 24 24" id="reload-spin">
+        <button class="ibtn" id="i-reload" title="Reload">
+          <svg id="reload-svg" viewBox="0 0 24 24" style="transition:transform 0.4s ease">
             <polyline points="23 4 23 10 17 10"/>
             <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
           </svg>
         </button>
-        <div class="island-divider"></div>
-        <div id="island-input-slot"></div>
+        <div class="idiv"></div>
+        <div id="i-input-slot" style="flex:1;min-width:0;display:flex;align-items:center;"></div>
+        <div class="idiv"></div>
+        <button id="i-close" title="Close">✕</button>
       </div>
+    </div>
+ 
+    <div id="sj-frame-container">
+      <iframe id="sj-frame" allow="fullscreen"></iframe>
     </div>
  
     <div title="Scramjet Logo" class="flex-center logo-wrapper header-center">
       <img class="logo" src="logo.png" alt="flux" />
     </div>
-    <div class="flex-center desc left-margin">
-    </div>
+    <div class="flex-center desc left-margin"></div>
     <form id="sj-form" class="flex-center">
-      <input
-        id="sj-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
+      <input id="sj-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
       <input id="sj-address" type="text" placeholder="Search the web freely" />
     </form>
     <div class="desc left-margin">
@@ -170,89 +169,149 @@
     </div>
  
     <script>
-      (function () {
-        const island     = document.getElementById('dynamic-island');
-        const form       = document.getElementById('sj-form');
-        const input      = document.getElementById('sj-address');
-        const slot       = document.getElementById('island-input-slot');
-        const btnBack    = document.getElementById('btn-back');
-        const btnForward = document.getElementById('btn-forward');
-        const btnReload  = document.getElementById('btn-reload');
-        const btnClose   = document.getElementById('island-close');
-        const reloadIcon = document.getElementById('reload-spin');
- 
-        let isOpen = false;
+    (function () {
+      function isURL(val) {
+        try { new URL(val); return true; } catch (_) {}
+        return /^[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}(\/.*)?$/.test(val.trim());
+      }
+      function toURL(val) {
+        val = val.trim();
+        const engine = document.getElementById('sj-search-engine').value;
+        if (isURL(val)) return val.startsWith('http') ? val : 'https://' + val;
+        return engine.replace('%s', encodeURIComponent(val));
+      }
 
-        function updateNavBtns() {
-          btnBack.disabled    = !window.history.state || window.history.state.idx <= 0;
-          btnForward.disabled = !window.history.state || window.history.state.idx >= (window.history.state.total - 1);
+      const island    = document.getElementById('dynamic-island');
+      const form      = document.getElementById('sj-form');
+      const input     = document.getElementById('sj-address');
+      const slot      = document.getElementById('i-input-slot');
+      const iBtnBack  = document.getElementById('i-back');
+      const iBtnFwd   = document.getElementById('i-forward');
+      const iBtnRel   = document.getElementById('i-reload');
+      const iBtnClose = document.getElementById('i-close');
+      const reloadSvg = document.getElementById('reload-svg');
+      const frameWrap = document.getElementById('sj-frame-container');
+      const frameEl   = document.getElementById('sj-frame');
+ 
+      const { ScramjetController } = $scramjetLoadController();
+      const sj = new ScramjetController({
+        files: {
+          wasm: '/scram/scramjet.wasm.wasm',
+          all:  '/scram/scramjet.all.js',
+          sync: '/scram/scramjet.sync.js',
+        }
+      });
+ 
+      let sjReady    = false;
+      let pendingURL = null;
+      let sjFrame    = null;
+ 
+      sj.init().then(() => {
+        sjReady = true;
+        if (pendingURL) { doNavigate(pendingURL); pendingURL = null; }
+      });
+ 
+      let isOpen = false;
+ 
+      function openIsland() {
+        if (isOpen) return;
+        isOpen = true;
+        input.classList.add('island-mode');
+        slot.appendChild(input);
+        island.classList.add('open');
+        setTimeout(() => { input.focus(); input.select(); }, 390);
+      }
+ 
+      function closeIsland() {
+        if (!isOpen) return;
+        isOpen = false;
+        island.classList.remove('open');
+        setTimeout(() => {
+          input.classList.remove('island-mode');
+          form.appendChild(input);
+        }, 360);
+        frameWrap.classList.remove('visible');
+        if (sjFrame) { sjFrame.frame.remove(); sjFrame = null; }
+      }
+ 
+      function doNavigate(url) {
+        if (!sjReady) { pendingURL = url; return; }
+ 
+        frameWrap.classList.add('visible');
+        input.value = url;
+ 
+        if (!sjFrame) {
+          sjFrame = sj.createFrame(frameEl);
         }
  
-        function openIsland() {
-          if (isOpen) return;
-          isOpen = true;
-          input.classList.add('in-island');
-          slot.appendChild(input);
-          island.classList.add('open');
-          updateNavBtns();
-          // focus after animation
-          setTimeout(() => input.focus(), 360);
-        }
+        sjFrame.go(url);
+
+        frameEl.addEventListener('load', onFrameLoad);
+      }
  
-        function closeIsland() {
-          if (!isOpen) return;
-          isOpen = false;
-          island.classList.remove('open');
-          setTimeout(() => {
-            input.classList.remove('in-island');
-            form.insertBefore(input, null);
-          }, 300);
-        }
+      function onFrameLoad() {
+        updateNav();
+        try {
+          const raw = frameEl.contentWindow.location.href;
+          const prefix = sj.config.prefix || '/scram/';
+          const encoded = raw.split(prefix)[1];
+          if (encoded) {
+            const decoded = sj.codec.decode(encoded);
+            if (decoded) input.value = decoded;
+          }
+        } catch (_) {}
+      }
  
-        form.addEventListener('submit', function (e) {
+      function updateNav() {
+        try {
+          const len = frameEl.contentWindow.history.length;
+          iBtnBack.disabled = len <= 1;
+          iBtnFwd.disabled = false;
+        } catch (_) {
+          iBtnBack.disabled = true;
+          iBtnFwd.disabled  = true;
+        }
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const q = input.value.trim();
+        if (!q) return;
+        openIsland();
+        doNavigate(toURL(q));
+      });
+ 
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
           const q = input.value.trim();
           if (!q) return;
+          doNavigate(toURL(q));
+        }
+      });
  
-          const idx = (window.history.state && window.history.state.idx != null)
-            ? window.history.state.idx + 1 : 0;
-          window.history.pushState({ idx }, '', window.location.href);
+      iBtnBack.addEventListener('click', () => {
+        try { frameEl.contentWindow.history.back(); } catch (_) {}
+        setTimeout(updateNav, 300);
+      });
  
-          openIsland();
-          updateNavBtns();
-        });
+      iBtnFwd.addEventListener('click', () => {
+        try { frameEl.contentWindow.history.forward(); } catch (_) {}
+        setTimeout(updateNav, 300);
+      });
  
-        input.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter') {
-            setTimeout(() => {
-              if (!isOpen) openIsland();
-              updateNavBtns();
-            }, 50);
-          }
-        });
+      iBtnRel.addEventListener('click', () => {
+        reloadSvg.style.transform = 'rotate(360deg)';
+        setTimeout(() => { reloadSvg.style.transform = ''; }, 430);
+        try { frameEl.contentWindow.location.reload(); } catch (_) {}
+      });
  
-        btnBack.addEventListener('click', function () {
-          window.history.back();
-        });
+      iBtnClose.addEventListener('click', closeIsland);
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && isOpen) closeIsland();
+      });
  
-        btnForward.addEventListener('click', function () {
-          window.history.forward();
-        });
-
-        btnReload.addEventListener('click', function () {
-          reloadIcon.style.transform = 'rotate(360deg)';
-          setTimeout(() => { reloadIcon.style.transform = ''; }, 460);
-          window.location.reload();
-        });
-
-        btnClose.addEventListener('click', closeIsland);
-        document.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && isOpen) closeIsland();
-        });
-
-        window.addEventListener('popstate', function () {
-          updateNavBtns();
-        });
-      })();
+    })();
     </script>
   </body>
 </html>

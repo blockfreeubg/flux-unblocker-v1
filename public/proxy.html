@@ -1,43 +1,395 @@
+
 <!doctype html>
 <html>
 	<head>
 		<meta name="google-adsense-account" content="ca-pub-7990685115274766">
 		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 		<title>Flux</title>
-
 		<link rel="shortcut icon" content="favicon.webp" />
-		
+ 
 		<script src="/scram/scramjet.all.js"></script>
 		<script src="/baremux/index.js"></script>
-		
+ 
 		<link rel="stylesheet" href="index.css" />
 		<script src="register-sw.js" defer></script>
 		<script src="search.js" defer></script>
 		<script src="index.js" defer></script>
+ 
+		<style>
+			#dynamic-island {
+				position: fixed;
+				top: 12px;
+				left: 50%;
+				transform: translateX(-50%) scaleX(0.15) scaleY(0.6);
+				transform-origin: center top;
+				z-index: 1000;
+				background: #f5c800;
+				border-radius: 999px;
+				display: flex;
+				align-items: center;
+				gap: 0;
+				padding: 0;
+				height: 36px;
+				width: 560px;
+				overflow: hidden;
+				opacity: 0;
+				pointer-events: none;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+				transition:
+					transform 0.5s cubic-bezier(0.34,1.56,0.64,1),
+					opacity 0.25s ease,
+					width 0.5s cubic-bezier(0.34,1.56,0.64,1),
+					box-shadow 0.5s ease,
+					padding 0.5s cubic-bezier(0.34,1.56,0.64,1);
+			}
+ 
+			#dynamic-island.pill {
+				transform: translateX(-50%) scaleX(1) scaleY(1);
+				opacity: 1;
+				pointer-events: auto;
+				width: 120px;
+				padding: 0 14px;
+				box-shadow:
+					0 0 18px 5px rgba(245,200,0,0.55),
+					0 0 50px 10px rgba(245,200,0,0.18),
+					0 3px 14px rgba(0,0,0,0.5);
+			}
+ 
+			#dynamic-island.expanded {
+				transform: translateX(-50%) scaleX(1) scaleY(1);
+				opacity: 1;
+				pointer-events: auto;
+				width: min(580px, calc(100vw - 24px));
+				padding: 0 8px;
+				box-shadow:
+					0 0 24px 7px rgba(245,200,0,0.6),
+					0 0 70px 16px rgba(245,200,0,0.2),
+					0 4px 20px rgba(0,0,0,0.55);
+			}
+ 
+			#island-pill-label {
+				flex: 1;
+				text-align: center;
+				font-size: 12px;
+				font-weight: 700;
+				color: #000;
+				letter-spacing: 0.06em;
+				white-space: nowrap;
+				pointer-events: none;
+				transition: opacity 0.15s;
+			}
+ 
+			#dynamic-island.expanded #island-pill-label { display: none; }
+ 
+			#island-inner {
+				display: flex;
+				align-items: center;
+				gap: 4px;
+				width: 100%;
+				opacity: 0;
+				transition: opacity 0.2s ease 0.18s;
+			}
+ 
+			#dynamic-island.expanded #island-inner { opacity: 1; }
+ 
+			.ctrl-btn {
+				background: rgba(0,0,0,0.13);
+				border: none;
+				color: #000;
+				width: 28px;
+				height: 28px;
+				border-radius: 50%;
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-shrink: 0;
+				transition: background 0.12s, transform 0.1s;
+				padding: 0;
+			}
+ 
+			.ctrl-btn:hover:not(:disabled) { background: rgba(0,0,0,0.22); }
+			.ctrl-btn:active:not(:disabled) { background: rgba(0,0,0,0.3); transform: scale(0.92); }
+			.ctrl-btn:disabled { opacity: 0.28; cursor: default; }
+ 
+			.ctrl-btn svg {
+				width: 13px;
+				height: 13px;
+				fill: none;
+				stroke: #000;
+				stroke-width: 2.3;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+			}
+ 
+			#ctrl-address-bar {
+				flex: 1;
+				height: 26px;
+				min-width: 0;
+				background: rgba(0,0,0,0.14);
+				border: none;
+				border-radius: 999px;
+				color: #000;
+				padding: 0 12px;
+				font-size: 12px;
+				font-weight: 500;
+				outline: none;
+				transition: background 0.15s;
+				caret-color: #000;
+			}
+ 
+			#ctrl-address-bar::placeholder { color: rgba(0,0,0,0.4); }
+			#ctrl-address-bar:focus { background: rgba(0,0,0,0.2); }
+ 
+			#loading-overlay {
+				display: none;
+				position: fixed;
+				inset: 0;
+				z-index: 900;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				gap: 20px;
+				background: var(--bg, #0f0f14);
+			}
+ 
+			#loading-overlay.visible { display: flex; }
+ 
+			.spinner {
+				width: 36px;
+				height: 36px;
+				border: 3px solid rgba(245,200,0,0.15);
+				border-top-color: #f5c800;
+				border-radius: 50%;
+				animation: spin 0.7s linear infinite;
+				box-shadow: 0 0 16px 3px rgba(245,200,0,0.3);
+			}
+ 
+			@keyframes spin { to { transform: rotate(360deg); } }
+ 
+			.loading-bar-track {
+				width: 180px;
+				height: 3px;
+				background: rgba(245,200,0,0.15);
+				border-radius: 99px;
+				overflow: hidden;
+			}
+ 
+			.loading-bar-fill {
+				height: 100%;
+				background: #f5c800;
+				border-radius: 99px;
+				box-shadow: 0 0 8px rgba(245,200,0,0.7);
+				animation: loadbar 1.4s ease-in-out infinite;
+			}
+ 
+			@keyframes loadbar {
+				0%   { width: 0%;  margin-left: 0%; }
+				50%  { width: 60%; margin-left: 20%; }
+				100% { width: 0%;  margin-left: 100%; }
+			}
+ 
+			.loading-label {
+				font-size: 13px;
+				color: rgba(255,255,255,0.38);
+				letter-spacing: 0.02em;
+			}
+ 
+			#proxy-frame {
+				display: none;
+				position: fixed;
+				top: 0; left: 0; right: 0; bottom: 0;
+				border: none;
+				width: 100%;
+				height: 100%;
+				z-index: 500;
+			}
+ 
+			#proxy-frame.visible { display: block; }
+ 
+			body.frame-open .logo-wrapper,
+			body.frame-open #sj-form,
+			body.frame-open .desc { display: none; }
+		</style>
 	</head>
-
 	<body>
+		<div id="dynamic-island">
+			<span id="island-pill-label">proxy controls ig</span>
+			<div id="island-inner">
+				<button class="ctrl-btn" id="ctrl-back" title="Back" disabled>
+					<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+				</button>
+				<button class="ctrl-btn" id="ctrl-forward" title="Forward" disabled>
+					<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+				</button>
+				<button class="ctrl-btn" id="ctrl-refresh" title="Refresh">
+					<svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+				</button>
+				<input id="ctrl-address-bar" type="text" placeholder="Search or enter URL…" />
+			</div>
+		</div>
+ 
+		<div id="loading-overlay">
+			<div class="spinner"></div>
+			<div class="loading-bar-track"><div class="loading-bar-fill"></div></div>
+			<span class="loading-label" id="loading-label">Loading…</span>
+		</div>
+ 
+		<iframe id="proxy-frame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+ 
 		<div title="Scramjet Logo" class="flex-center logo-wrapper header-center">
 			<img class="logo" src="logo.png" alt="flux" />
 		</div>
-		<div class="flex-center desc left-margin">
-		</div>
-
+		<div class="flex-center desc left-margin"></div>
 		<form id="sj-form" class="flex-center">
-			<input
-				id="sj-search-engine"
-				value="https://www.google.com/search?q=%s"
-				type="hidden"
-			/>
+			<input id="sj-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
 			<input id="sj-address" type="text" placeholder="Search the web freely" />
 		</form>
 		<div class="desc left-margin">
 			<p id="sj-error"></p>
 			<pre id="sj-error-code"></pre>
 		</div>
+ 
+		<script>
+			(function () {
+				const island    = document.getElementById('dynamic-island');
+				const overlay   = document.getElementById('loading-overlay');
+				const frame     = document.getElementById('proxy-frame');
+				const addrBar   = document.getElementById('ctrl-address-bar');
+				const btnBack   = document.getElementById('ctrl-back');
+				const btnFwd    = document.getElementById('ctrl-forward');
+				const btnRef    = document.getElementById('ctrl-refresh');
+				const btnClose  = document.getElementById('ctrl-close');
+				const loadLabel = document.getElementById('loading-label');
+				const homeForm  = document.getElementById('sj-form');
+ 
+				let navHistory = [];
+				let histIdx = -1;
+				let expanded = false;
+ 
+				function showPill() {
+					island.classList.remove('expanded');
+					island.classList.add('pill');
+					expanded = false;
+				}
+ 
+				function showExpanded() {
+					island.classList.remove('pill');
+					island.classList.add('expanded');
+					expanded = true;
+					setTimeout(() => addrBar.focus(), 280);
+				}
+ 
+				function hideIsland() {
+					island.classList.remove('pill', 'expanded');
+					expanded = false;
+				}
+ 
+				island.addEventListener('click', function (e) {
+					if (!expanded) showExpanded();
+				});
+ 
+				document.addEventListener('click', function (e) {
+					if (expanded && !island.contains(e.target)) showPill();
+				});
+ 
+				function navigate(url, push) {
+					if (!url) return;
+					overlay.classList.add('visible');
+					document.body.classList.add('frame-open');
+					frame.classList.remove('visible');
+					addrBar.value = url;
+					loadLabel.textContent = 'Loading…';
+					if (push !== false) {
+						navHistory = navHistory.slice(0, histIdx + 1);
+						navHistory.push(url);
+						histIdx = navHistory.length - 1;
+					}
+					updateBtns();
+					showPill();
+					frame.src = url;
+				}
+ 
+				frame.addEventListener('load', function () {
+					overlay.classList.remove('visible');
+					frame.classList.add('visible');
+					try { addrBar.value = frame.contentWindow.location.href || frame.src; }
+					catch (e) { addrBar.value = frame.src; }
+				});
+ 
+				frame.addEventListener('error', function () {
+					overlay.classList.remove('visible');
+				});
+ 
+				function updateBtns() {
+					btnBack.disabled = histIdx <= 0;
+					btnFwd.disabled  = histIdx >= navHistory.length - 1;
+				}
+ 
+				btnBack.addEventListener('click', function (e) {
+					e.stopPropagation();
+					if (histIdx > 0) { histIdx--; navigate(navHistory[histIdx], false); }
+				});
+ 
+				btnFwd.addEventListener('click', function (e) {
+					e.stopPropagation();
+					if (histIdx < navHistory.length - 1) { histIdx++; navigate(navHistory[histIdx], false); }
+				});
+ 
+				btnRef.addEventListener('click', function (e) {
+					e.stopPropagation();
+					frame.classList.remove('visible');
+					overlay.classList.add('visible');
+					loadLabel.textContent = 'Refreshing…';
+					const cur = frame.src;
+					frame.src = 'about:blank';
+					setTimeout(() => { frame.src = cur; }, 50);
+					showPill();
+				});
+ 
+				btnClose.addEventListener('click', function (e) {
+					e.stopPropagation();
+					frame.classList.remove('visible');
+					frame.src = 'about:blank';
+					overlay.classList.remove('visible');
+					document.body.classList.remove('frame-open');
+					hideIsland();
+					navHistory = [];
+					histIdx = -1;
+					updateBtns();
+				});
+ 
+				addrBar.addEventListener('click', function (e) { e.stopPropagation(); });
+ 
+				addrBar.addEventListener('keydown', function (e) {
+					if (e.key === 'Enter') {
+						e.preventDefault();
+						const val = addrBar.value.trim();
+						if (!val) return;
+						const isUrl = /^https?:\/\//i.test(val) || /^[\w-]+\.[a-z]{2,}/i.test(val);
+						const url = isUrl
+							? (val.startsWith('http') ? val : 'https://' + val)
+							: 'https://www.google.com/search?q=' + encodeURIComponent(val);
+						navigate(url);
+					}
+					if (e.key === 'Escape') showPill();
+				});
+ 
+				homeForm.addEventListener('submit', function (e) {
+					e.preventDefault();
+					const input  = document.getElementById('sj-address').value.trim();
+					if (!input) return;
+					const engine = document.getElementById('sj-search-engine').value;
+					const url = engine.includes('%s')
+						? engine.replace('%s', encodeURIComponent(input))
+						: input;
+					navigate(url);
+				});
+ 
+				window.fluxNavigate = navigate;
+			})();
+		</script>
 	</body>
 </html>
+ 

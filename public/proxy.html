@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 	<head>
@@ -7,35 +6,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 		<title>Flux</title>
 		<link rel="shortcut icon" content="favicon.webp" />
- 
+
 		<script src="/scram/scramjet.all.js"></script>
 		<script src="/baremux/index.js"></script>
- 
+
 		<link rel="stylesheet" href="index.css" />
 		<script src="register-sw.js" defer></script>
 		<script src="search.js" defer></script>
 		<script src="index.js" defer></script>
- 
+
 		<style>
 			#dynamic-island {
 				position: fixed;
 				top: 12px;
 				left: 50%;
-				transform: translateX(-50%) scaleX(0.15) scaleY(0.6);
+				transform: translateX(-50%) scaleX(0.15) scaleY(0.5);
 				transform-origin: center top;
 				z-index: 1000;
-				background: #f5c800;
+				background:rgba(230, 210, 34, 0.897);
 				border-radius: 999px;
 				display: flex;
 				align-items: center;
 				gap: 0;
 				padding: 0;
-				height: 36px;
+				height: 46px;
 				width: 560px;
 				overflow: hidden;
 				opacity: 0;
 				pointer-events: none;
-				box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+				box-shadow: 0 2px 8px rgba(255, 208, 0, 0.45);
 				transition:
 					transform 0.5s cubic-bezier(0.34,1.56,0.64,1),
 					opacity 0.25s ease,
@@ -43,62 +42,36 @@
 					box-shadow 0.5s ease,
 					padding 0.5s cubic-bezier(0.34,1.56,0.64,1);
 			}
- 
-			#dynamic-island.pill {
-				transform: translateX(-50%) scaleX(1) scaleY(1);
-				opacity: 1;
-				pointer-events: auto;
-				width: 120px;
-				padding: 0 14px;
-				box-shadow:
-					0 0 18px 5px rgba(245,200,0,0.55),
-					0 0 50px 10px rgba(245,200,0,0.18),
-					0 3px 14px rgba(0,0,0,0.5);
-			}
- 
-			#dynamic-island.expanded {
+
+			#dynamic-island.visible {
 				transform: translateX(-50%) scaleX(1) scaleY(1);
 				opacity: 1;
 				pointer-events: auto;
 				width: min(580px, calc(100vw - 24px));
-				padding: 0 8px;
+				padding: 0 10px;
 				box-shadow:
-					0 0 24px 7px rgba(245,200,0,0.6),
-					0 0 70px 16px rgba(245,200,0,0.2),
+					0 0 24px 7px rgb(255, 230, 0)
+					0 0 70px 16px rgb(245, 200, 0),
 					0 4px 20px rgba(0,0,0,0.55);
 			}
- 
-			#island-pill-label {
-				flex: 1;
-				text-align: center;
-				font-size: 12px;
-				font-weight: 700;
-				color: #000;
-				letter-spacing: 0.06em;
-				white-space: nowrap;
-				pointer-events: none;
-				transition: opacity 0.15s;
-			}
- 
-			#dynamic-island.expanded #island-pill-label { display: none; }
- 
+
 			#island-inner {
 				display: flex;
 				align-items: center;
-				gap: 4px;
+				gap: 5px;
 				width: 100%;
 				opacity: 0;
 				transition: opacity 0.2s ease 0.18s;
 			}
- 
-			#dynamic-island.expanded #island-inner { opacity: 1; }
- 
+
+			#dynamic-island.visible #island-inner { opacity: 1; }
+
 			.ctrl-btn {
-				background: rgba(0,0,0,0.13);
+				background: rgba(255,255,255,0.18);
 				border: none;
-				color: #000;
-				width: 28px;
-				height: 28px;
+				color: #fff;
+				width: 32px;
+				height: 32px;
 				border-radius: 50%;
 				cursor: pointer;
 				display: flex;
@@ -108,40 +81,41 @@
 				transition: background 0.12s, transform 0.1s;
 				padding: 0;
 			}
- 
-			.ctrl-btn:hover:not(:disabled) { background: rgba(0,0,0,0.22); }
-			.ctrl-btn:active:not(:disabled) { background: rgba(0,0,0,0.3); transform: scale(0.92); }
+
+			.ctrl-btn:hover:not(:disabled) { background: rgba(255,255,255,0.28); }
+			.ctrl-btn:active:not(:disabled) { background: rgba(255,255,255,0.38); transform: scale(0.92); }
 			.ctrl-btn:disabled { opacity: 0.28; cursor: default; }
- 
+
 			.ctrl-btn svg {
-				width: 13px;
-				height: 13px;
+				width: 14px;
+				height: 14px;
 				fill: none;
-				stroke: #000;
+				stroke: #000000;
 				stroke-width: 2.3;
 				stroke-linecap: round;
 				stroke-linejoin: round;
 			}
- 
+
 			#ctrl-address-bar {
 				flex: 1;
-				height: 26px;
+				height: 30px;
 				min-width: 0;
-				background: rgba(0,0,0,0.14);
+				background: rgba(0,0,0,0.18);
 				border: none;
 				border-radius: 999px;
-				color: #000;
-				padding: 0 12px;
+				color: #000000;
+				padding: 0 14px;
 				font-size: 12px;
 				font-weight: 500;
 				outline: none;
 				transition: background 0.15s;
-				caret-color: #000;
+				caret-color: #fff;
+				font-family: comic sans ms;
 			}
- 
-			#ctrl-address-bar::placeholder { color: rgba(0,0,0,0.4); }
-			#ctrl-address-bar:focus { background: rgba(0,0,0,0.2); }
- 
+
+			#ctrl-address-bar::placeholder { color: rgba(255,255,255,0.45); }
+			#ctrl-address-bar:focus { background: rgba(0,0,0,0.26); }
+
 			#loading-overlay {
 				display: none;
 				position: fixed;
@@ -153,9 +127,9 @@
 				gap: 20px;
 				background: var(--bg, #0f0f14);
 			}
- 
+
 			#loading-overlay.visible { display: flex; }
- 
+
 			.spinner {
 				width: 36px;
 				height: 36px;
@@ -165,9 +139,9 @@
 				animation: spin 0.7s linear infinite;
 				box-shadow: 0 0 16px 3px rgba(245,200,0,0.3);
 			}
- 
+
 			@keyframes spin { to { transform: rotate(360deg); } }
- 
+
 			.loading-bar-track {
 				width: 180px;
 				height: 3px;
@@ -175,7 +149,7 @@
 				border-radius: 99px;
 				overflow: hidden;
 			}
- 
+
 			.loading-bar-fill {
 				height: 100%;
 				background: #f5c800;
@@ -183,19 +157,19 @@
 				box-shadow: 0 0 8px rgba(245,200,0,0.7);
 				animation: loadbar 1.4s ease-in-out infinite;
 			}
- 
+
 			@keyframes loadbar {
 				0%   { width: 0%;  margin-left: 0%; }
 				50%  { width: 60%; margin-left: 20%; }
 				100% { width: 0%;  margin-left: 100%; }
 			}
- 
+
 			.loading-label {
 				font-size: 13px;
 				color: rgba(255,255,255,0.38);
 				letter-spacing: 0.02em;
 			}
- 
+
 			#proxy-frame {
 				display: none;
 				position: fixed;
@@ -205,9 +179,9 @@
 				height: 100%;
 				z-index: 500;
 			}
- 
+
 			#proxy-frame.visible { display: block; }
- 
+
 			body.frame-open .logo-wrapper,
 			body.frame-open #sj-form,
 			body.frame-open .desc { display: none; }
@@ -215,7 +189,6 @@
 	</head>
 	<body>
 		<div id="dynamic-island">
-			<span id="island-pill-label">proxy controls ig</span>
 			<div id="island-inner">
 				<button class="ctrl-btn" id="ctrl-back" title="Back" disabled>
 					<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
@@ -229,15 +202,15 @@
 				<input id="ctrl-address-bar" type="text" placeholder="Search or enter URL…" />
 			</div>
 		</div>
- 
+
 		<div id="loading-overlay">
 			<div class="spinner"></div>
 			<div class="loading-bar-track"><div class="loading-bar-fill"></div></div>
 			<span class="loading-label" id="loading-label">Loading…</span>
 		</div>
- 
+
 		<iframe id="proxy-frame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
- 
+
 		<div title="Scramjet Logo" class="flex-center logo-wrapper header-center">
 			<img class="logo" src="logo.png" alt="flux" />
 		</div>
@@ -250,7 +223,7 @@
 			<p id="sj-error"></p>
 			<pre id="sj-error-code"></pre>
 		</div>
- 
+
 		<script>
 			(function () {
 				const island    = document.getElementById('dynamic-island');
@@ -260,40 +233,20 @@
 				const btnBack   = document.getElementById('ctrl-back');
 				const btnFwd    = document.getElementById('ctrl-forward');
 				const btnRef    = document.getElementById('ctrl-refresh');
-				const btnClose  = document.getElementById('ctrl-close');
 				const loadLabel = document.getElementById('loading-label');
 				const homeForm  = document.getElementById('sj-form');
- 
+
 				let navHistory = [];
 				let histIdx = -1;
-				let expanded = false;
- 
-				function showPill() {
-					island.classList.remove('expanded');
-					island.classList.add('pill');
-					expanded = false;
+
+				function showIsland() {
+					island.classList.add('visible');
 				}
- 
-				function showExpanded() {
-					island.classList.remove('pill');
-					island.classList.add('expanded');
-					expanded = true;
-					setTimeout(() => addrBar.focus(), 280);
-				}
- 
+
 				function hideIsland() {
-					island.classList.remove('pill', 'expanded');
-					expanded = false;
+					island.classList.remove('visible');
 				}
- 
-				island.addEventListener('click', function (e) {
-					if (!expanded) showExpanded();
-				});
- 
-				document.addEventListener('click', function (e) {
-					if (expanded && !island.contains(e.target)) showPill();
-				});
- 
+
 				function navigate(url, push) {
 					if (!url) return;
 					overlay.classList.add('visible');
@@ -307,61 +260,43 @@
 						histIdx = navHistory.length - 1;
 					}
 					updateBtns();
-					showPill();
+					showIsland();
 					frame.src = url;
 				}
- 
+
 				frame.addEventListener('load', function () {
 					overlay.classList.remove('visible');
 					frame.classList.add('visible');
 					try { addrBar.value = frame.contentWindow.location.href || frame.src; }
 					catch (e) { addrBar.value = frame.src; }
 				});
- 
+
 				frame.addEventListener('error', function () {
 					overlay.classList.remove('visible');
 				});
- 
+
 				function updateBtns() {
 					btnBack.disabled = histIdx <= 0;
 					btnFwd.disabled  = histIdx >= navHistory.length - 1;
 				}
- 
-				btnBack.addEventListener('click', function (e) {
-					e.stopPropagation();
+
+				btnBack.addEventListener('click', function () {
 					if (histIdx > 0) { histIdx--; navigate(navHistory[histIdx], false); }
 				});
- 
-				btnFwd.addEventListener('click', function (e) {
-					e.stopPropagation();
+
+				btnFwd.addEventListener('click', function () {
 					if (histIdx < navHistory.length - 1) { histIdx++; navigate(navHistory[histIdx], false); }
 				});
- 
-				btnRef.addEventListener('click', function (e) {
-					e.stopPropagation();
+
+				btnRef.addEventListener('click', function () {
 					frame.classList.remove('visible');
 					overlay.classList.add('visible');
 					loadLabel.textContent = 'Refreshing…';
 					const cur = frame.src;
 					frame.src = 'about:blank';
 					setTimeout(() => { frame.src = cur; }, 50);
-					showPill();
 				});
- 
-				btnClose.addEventListener('click', function (e) {
-					e.stopPropagation();
-					frame.classList.remove('visible');
-					frame.src = 'about:blank';
-					overlay.classList.remove('visible');
-					document.body.classList.remove('frame-open');
-					hideIsland();
-					navHistory = [];
-					histIdx = -1;
-					updateBtns();
-				});
- 
-				addrBar.addEventListener('click', function (e) { e.stopPropagation(); });
- 
+
 				addrBar.addEventListener('keydown', function (e) {
 					if (e.key === 'Enter') {
 						e.preventDefault();
@@ -373,9 +308,8 @@
 							: 'https://www.google.com/search?q=' + encodeURIComponent(val);
 						navigate(url);
 					}
-					if (e.key === 'Escape') showPill();
 				});
- 
+
 				homeForm.addEventListener('submit', function (e) {
 					e.preventDefault();
 					const input  = document.getElementById('sj-address').value.trim();
@@ -386,10 +320,9 @@
 						: input;
 					navigate(url);
 				});
- 
+
 				window.fluxNavigate = navigate;
 			})();
 		</script>
 	</body>
 </html>
- 
